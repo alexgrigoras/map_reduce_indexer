@@ -37,13 +37,13 @@ struct words
 	int frequency;
 };
 
-void appendChar(char* s, char c) {
+void append_char(char* s, char c) {
 	int len = strlen(s);
 	s[len] = c;
 	s[len + 1] = '\0';
 }
 
-void getFileNames(const char *path)
+void get_file_names(const char *path)
 {
 	/// Variables
 	int process = 0;							// process to send file name
@@ -117,7 +117,7 @@ list<words> readWords(FILE *fp)
 		else if(c >= -1 && c <= 255 && isalpha(c))
 		{ 
 			nextWord = false;
-			appendChar(word, tolower(c));
+			append_char(word, tolower(c));
 		}
 	}
 
@@ -164,7 +164,7 @@ int main(int argc, char* argv[]) {
 	MPI_Status status;							// return status for receive 
 	char *message;								// message buffer for receive
 	char *filePath;								//
-	FILE * fp;									//
+	FILE *fp;									//
 	errno_t err;
 	///
 	int nrDimensions = 2;					// plasa de procesoare are 1 dimensiune
@@ -206,7 +206,7 @@ int main(int argc, char* argv[]) {
 
 	// if the process is ROOT
 	if (myRank == ROOT) {
-		getFileNames(DIR_NAME);					// get file names and number of them
+		get_file_names(DIR_NAME);					// get file names and number of them
 	}
 	// if the process is worker
 	else {
@@ -227,24 +227,21 @@ int main(int argc, char* argv[]) {
 
 		// list of words
 		list<words> wordList;
-		wordList = readWords(fp);
-	
+		wordList = readWords(fp);	
 		//display_words(message, wordList);
 
 		// get elapsed time
 		clock_t end = clock();
 		elapsedSecs = double(end - begin) / CLOCKS_PER_SEC;
-		//printf("Process %d finished in %lf seconds", myRank, elapsedSecs);
+		// printf("Process %d finished in %lf seconds", myRank, sendMessage);
 	}
-
 	sendMessage = elapsedSecs;
-	
 
-	MPI_Send(&sendMessage, 1, MPI_INT, right, round, commCart);
+	MPI_Send(&sendMessage, 1, MPI_DOUBLE, right, round, commCart);
 
 	while (!gasitLider)
 	{
-		MPI_Recv(&receiveMessage, 1, MPI_INT, left, MPI_ANY_TAG, commCart, &status);
+		MPI_Recv(&receiveMessage, 1, MPI_DOUBLE, left, MPI_ANY_TAG, commCart, &status);
 
 		switch (status.MPI_TAG)
 		{
@@ -253,18 +250,18 @@ int main(int argc, char* argv[]) {
 			{
 				statute = S_LEADER;
 				round = R_LEADER;
-				MPI_Send(&sendMessage, 1, MPI_INT, right, round, commCart);
+				MPI_Send(&sendMessage, 1, MPI_DOUBLE, right, round, commCart);
 				gasitLider = true;
 			}
 			else if (receiveMessage > sendMessage)
 			{
-				MPI_Send(&receiveMessage, 1, MPI_INT, right, round, commCart);
+				MPI_Send(&receiveMessage, 1, MPI_DOUBLE, right, round, commCart);
 			}
 			break;
 		case R_LEADER:
 			statute = S_NONLIDER;
 			round = R_LEADER;
-			MPI_Send(&receiveMessage, 1, MPI_INT, right, round, commCart);
+			MPI_Send(&receiveMessage, 1, MPI_DOUBLE, right, round, commCart);
 			gasitLider = true;
 			break;
 		}
@@ -280,6 +277,8 @@ int main(int argc, char* argv[]) {
 	}
 
 	MPI_Comm_free(&commCart);
+	free(message);
+	free(filePath);
 
 	/// MPI finalization
 	MPI_Finalize();								// shut down MPI
