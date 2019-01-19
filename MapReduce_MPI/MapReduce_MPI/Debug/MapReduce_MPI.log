@@ -1,4 +1,2 @@
 ﻿  main.cpp
-c:\users\alexandru grigoras\documents\mapreduce\mapreduce_mpi\mapreduce_mpi\main.cpp(89): warning C4129: '%': unrecognized character escape sequence
-c:\users\alexandru grigoras\documents\mapreduce\mapreduce_mpi\mapreduce_mpi\main.cpp(75): warning C4101: 'fp': unreferenced local variable
   MapReduce_MPI.vcxproj -> C:\Users\Alexandru Grigoras\Documents\mapreduce\MapReduce_MPI\Debug\MapReduce_MPI.exe
