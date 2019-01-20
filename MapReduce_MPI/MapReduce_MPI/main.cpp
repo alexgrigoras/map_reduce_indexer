@@ -23,6 +23,7 @@ int main(int argc, char* argv[]) {
 	errno_t err;									// error message for file open problem
 	///
 	TYPE_NODE *HT[M];
+	list<TYPE_NODE*> HT_list;
 	///
 	int nrDimensions = 2;							// processes net
 	int nrElemDim = NR_PROCESSES;					// number of processes on each dimension
@@ -64,11 +65,11 @@ int main(int argc, char* argv[]) {
 	// ETAPA 1 si 2 ---------------------------------------------------------------------------------------------------------
 	
 
-	// if the process is ROOT
+	/// if the process is ROOT
 	if (myRank == ROOT) {
 		get_file_names(DIR_NAME);					// get file names and number of them
 	}
-	// if the process is worker
+	/// if the process is worker
 	else {
 		// receive file name
 		MPI_Recv(message, strlen(message) + 1, MPI_CHAR, ROOT, tag, MPI_COMM_WORLD, &status);
@@ -99,7 +100,7 @@ int main(int argc, char* argv[]) {
 	}
 	sendMessage = elapsedSecs;
 
-	// find the highest time
+	/// find the highest time
 
 	MPI_Send(&sendMessage, 1, MPI_DOUBLE, right, round, commCart);
 
@@ -133,18 +134,58 @@ int main(int argc, char* argv[]) {
 
 	if (statute == S_LEADER)
 	{
-		printf("> Process[%d] TOOK THE MOST TIME: %lf\n", myRank, sendMessage);
+		//printf("> Process[%d] TOOK THE MOST TIME: %lf\n", myRank, sendMessage);
 	}
 	else 
 	{
-		printf("> Process[%d] took: %lf\n", myRank, sendMessage);
+		//printf("> Process[%d] took: %lf\n", myRank, sendMessage);
 	}
 
 	// ----------------------------------------------------------------------------------------------------------------------
 
 	// ETAPA 3 --------------------------------------------------------------------------------------------------------------
 
+	/// create a type for struct S_WORD
+	const int nitems = 3;
+	int blocklengths[3] = { NAME_SIZE, 1, NAME_SIZE };
+	MPI_Datatype types[3] = { MPI_CHAR, MPI_INT, MPI_CHAR };
+	MPI_Datatype mpi_word_type;
+	MPI_Aint offsets[3];
 
+	offsets[0] = offsetof(S_WORD, text);
+	offsets[1] = offsetof(S_WORD, frequency);
+	offsets[2] = offsetof(S_WORD, document);
+
+	MPI_Type_create_struct(nitems, blocklengths, offsets, types, &mpi_word_type);
+	MPI_Type_commit(&mpi_word_type);
+
+	/// create a type for TYPE_NODE
+	// to be implemented
+
+	if (myRank == ROOT)
+	{
+		for (int i = 0; i < NR_PROCESSES - 1; i++) {
+			/// test
+			int receivedRank;
+			MPI_Recv(&receivedRank, 1, MPI_INT, MPI_ANY_SOURCE, tag, MPI_COMM_WORLD, &status);
+			printf("%d receiving %d from %d\n", myRank, receivedRank, status.MPI_SOURCE);
+
+			/// to be implemented
+			//MPI_Recv(HT, M, mpi_word_type, MPI_ANY_SOURCE, tag, MPI_COMM_WORLD, &status);
+			//HT_list.push_back(HT);
+			//display_HT(HT);
+		}
+	}
+	else
+	{
+		/// test
+		MPI_Send(&myRank, 1, MPI_INT, ROOT, tag, MPI_COMM_WORLD);
+		/// to be implemented
+		//MPI_Send(HT, M, mpi_word_type, ROOT, tag, MPI_COMM_WORLD);
+
+	}
+
+	// ----------------------------------------------------------------------------------------------------------------------
 
 	/// remove cartezian communication and dealocate memory
 	MPI_Comm_free(&commCart);

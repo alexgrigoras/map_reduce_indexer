@@ -22,7 +22,6 @@
 #define R_LEADER 2
 #define S_LEADER 1
 #define S_NONLIDER 0
-#define TABLE_SIZE 503
 
 using namespace std;
 
@@ -50,7 +49,7 @@ void insert_HT(TYPE_NODE *HT[], S_WORD w);
 
 void delete_HT(TYPE_NODE *HT[]);
 
-void display_HT(TYPE_NODE *HT[], char *message);
+void display_HT(TYPE_NODE *HT[]);
 
 S_WORD make_word(char *text, char *document);
 

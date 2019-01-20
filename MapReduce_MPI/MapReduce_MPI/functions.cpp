@@ -46,7 +46,7 @@ S_WORD make_word(char *text, char *document)
 	return w;
 }
 
-void display_HT(TYPE_NODE *HT[], char *message)
+void display_HT(TYPE_NODE *HT[])
 {
 	for (int i = 0; i < M; i++) {
 		if (HT[i] != 0)
