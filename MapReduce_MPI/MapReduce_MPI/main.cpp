@@ -2,7 +2,7 @@
  ============================================================================
  Name        : main.cpp
  Author      : Alexandru Grigoras
- Version     : 0.1
+ Version     : 0.2
  Copyright   : Alexandru Grigoras
  Description : MapReduce MPI
  ============================================================================
@@ -13,48 +13,45 @@
 
 int main(int argc, char* argv[]) {
 	/// Variables
-	int myRank;									// rank of process 
-	int count;									// number of processes  
-	int tag = 0;								// tag for communication
-	MPI_Status status;							// return status for receive 
-	char *message;								// message buffer for receive
-	char *filePath;								//
-	FILE *fp;									//
-	errno_t err;
+	int myRank;										// rank of process 
+	int processCount;								// number of processes  
+	int tag = 0;									// tag for communication
+	MPI_Status status;								// return status for receive 
+	char *message;									// message buffer for receive
+	char *filePath;									// stores path to the file / file name
+	FILE *fp;										// opened file object
+	errno_t err;									// error message for file open problem
 	///
 	TYPE_NODE *HT[M];
 	///
-	int nrDimensions = 2;					// plasa de procesoare are 1 dimensiune
-	int nrElemDim = NR_PROCESSES;			// numarul de elemente pe fiecare dimensiune in parte = NP
-	int dims[NR_PROCESSES] = { 1, NR_PROCESSES };	// elementele din dimensiune
-	int periods[] = { 1, 1 };				// periodicitatea este pe ambele dimensiuni
-	int gasitLider = false;
-	int statute = S_LEADER;					// initial, fiecare proces considera ca e lider (ca e cel mai bun)
-	int ID;									// ID-ul fiecarui proces
-	int left;								// vecinii procesului curent
+	int nrDimensions = 2;							// processes net
+	int nrElemDim = NR_PROCESSES;					// number of processes on each dimension
+	int dims[NR_PROCESSES] = {1, NR_PROCESSES};		// elements of each dimension
+	int periods[] = { 1, 1 };						// periodicity of dimensions
+	int gasitLider = false;							// flag that activates when the leader is found
+	int statute = S_LEADER;							// initially, each process is leader
+	int left;										// vecinii procesului curent
 	int right;
-	int round = R_CHOICE;					// tag for messages
-	int vectorRanks[NR_PROCESSES];
-	MPI_Comm commCart;						// construim o topologie de tip cartezian
+	int round = R_CHOICE;							// tag for messages
+	MPI_Comm commCart;								// cartezian topology
 	///
 	double elapsedSecs = 0.0;
 	double sendMessage;
 	double receiveMessage;
 
 	/// MPI initialization
-	MPI_Init(&argc, &argv);						// start up MPI
-	MPI_Comm_rank(MPI_COMM_WORLD, &myRank);		// find out process rank
-	MPI_Comm_size(MPI_COMM_WORLD, &count);		// find out number of processes
+	MPI_Init(&argc, &argv);							// start up MPI
+	MPI_Comm_rank(MPI_COMM_WORLD, &myRank);			// find out process rank
+	MPI_Comm_size(MPI_COMM_WORLD, &processCount);	// find out number of processes
 	MPI_Cart_create(MPI_COMM_WORLD, nrDimensions, dims, periods, 1, &commCart);
-	MPI_Comm_rank(commCart, &myRank);			// aflam rank-ul procesului curent
-	MPI_Comm_size(commCart, &count);			// aflam numarul de procese
+	MPI_Comm_rank(commCart, &myRank);				// aflam rank-ul procesului curent
+	MPI_Comm_size(commCart, &processCount);			// aflam numarul de procese
 
-	for (int i = 0; i < 26; i++)
+	if (processCount != NR_PROCESSES)
 	{
-		vectorRanks[i] = i;
+		printf("> Number of processes isn't correct! It should be: %d", NR_PROCESSES);
+		exit(EXIT_FAILURE);
 	}
-
-	MPI_Scatter(vectorRanks, 1, MPI_INT, &ID, 1, MPI_INT, ROOT, commCart);
 
 	MPI_Cart_shift(commCart, 1, 1, &left, &right);
 
@@ -62,6 +59,10 @@ int main(int argc, char* argv[]) {
 	filePath = (char*)malloc(NAME_SIZE * sizeof(char));
 
 	initialize_HT(HT);
+
+
+	// ETAPA 1 si 2 ---------------------------------------------------------------------------------------------------------
+	
 
 	// if the process is ROOT
 	if (myRank == ROOT) {
@@ -84,16 +85,12 @@ int main(int argc, char* argv[]) {
 		// measure time
 		clock_t begin = clock();
 		
-		readWords(HT, fp);
+		readWords(HT, fp, message);
 
-		/*
 		if (myRank == 20)
 		{
-			printf("<%s,{", message);
-			display_HT(HT);
-			printf("}>\n");
+			//display_HT(HT, message);
 		}
-		*/
 
 		// get elapsed time
 		clock_t end = clock();
@@ -101,6 +98,8 @@ int main(int argc, char* argv[]) {
 		// printf("Process %d finished in %lf seconds", myRank, sendMessage);
 	}
 	sendMessage = elapsedSecs;
+
+	// find the highest time
 
 	MPI_Send(&sendMessage, 1, MPI_DOUBLE, right, round, commCart);
 
@@ -141,6 +140,13 @@ int main(int argc, char* argv[]) {
 		printf("> Process[%d] took: %lf\n", myRank, sendMessage);
 	}
 
+	// ----------------------------------------------------------------------------------------------------------------------
+
+	// ETAPA 3 --------------------------------------------------------------------------------------------------------------
+
+
+
+	/// remove cartezian communication and dealocate memory
 	MPI_Comm_free(&commCart);
 	free(message);
 	free(filePath);

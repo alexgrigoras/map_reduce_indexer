@@ -2,7 +2,6 @@
 
 int f(char *key)
 {
-	/*
 	int i, suma;
 	suma = 0;
 	for (i = 0; i < strlen(key); i++) 
@@ -10,9 +9,7 @@ int f(char *key)
 		suma = suma + *(key + i);
 	}
 	return suma % M;
-	*/
-
-	return (*(key + 0) - 97) % NR_PROCESSES;
+	//return (*(key + 0) - 97) % NR_PROCESSES;
 }
 
 void initialize_HT(TYPE_NODE *HT[])
@@ -36,18 +33,20 @@ TYPE_NODE* search_HT(TYPE_NODE *HT[], char* text)
 	return 0;
 }
 
-S_WORD make_word(char *text)
+S_WORD make_word(char *text, char *document)
 {
 	S_WORD w;
 
 	w.text = new char[strlen(text) + 1];
 	strcpy_s(w.text, strlen(text) + 1, text);
 	w.frequency = 1;
+	w.document = new char[strlen(document) + 1];
+	strcpy_s(w.document, strlen(document) + 1, document);
 
 	return w;
 }
 
-void display_HT(TYPE_NODE *HT[])
+void display_HT(TYPE_NODE *HT[], char *message)
 {
 	for (int i = 0; i < M; i++) {
 		if (HT[i] != 0)
@@ -61,7 +60,7 @@ void display_HT(TYPE_NODE *HT[])
 				display_word(p);
 				if (p->next != 0)
 				{
-					printf(",");
+					printf(", ");
 				}
 				p = p->next;
 			}
@@ -72,7 +71,7 @@ void display_HT(TYPE_NODE *HT[])
 
 void display_word(TYPE_NODE * p)
 {
-	cout << p->word.text << ":" << p->word.frequency;
+	printf("<%s,{%s,%d}>", p->word.text, p->word.document, p->word.frequency);
 }
 
 void insert_HT(TYPE_NODE *HT[], S_WORD w)
@@ -161,7 +160,7 @@ void get_file_names(const char *path)
 	}
 }
 
-void readWords(TYPE_NODE *HT[], FILE *fp)
+void readWords(TYPE_NODE *HT[], FILE *fp, char *document)
 {
 	char c;
 	bool nextWord = false;
@@ -174,7 +173,7 @@ void readWords(TYPE_NODE *HT[], FILE *fp)
 		{
 			// create new word
 			nextWord = true;
-			w = make_word(word);
+			w = make_word(word, document);
 			insert_HT(HT, w);
 			// empty read word
 			strcpy_s(word, strlen(EMPTY_CHAR) + 1, EMPTY_CHAR);

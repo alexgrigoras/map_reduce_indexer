@@ -11,7 +11,7 @@
 #include "mpi.h"
 
 /// Define macros
-#define M 26 //503
+#define M 26					// old: 503
 #define NR_PROCESSES 26
 #define DIR_NAME "test_files"
 #define FILE_TXT 32768
@@ -30,7 +30,7 @@ struct S_WORD
 {
 	char *text;				// key for search
 	int frequency;			// frequency of word
-	// char *document;		// document in which the word is found
+	char *document;			// document in which the word is found
 };
 
 struct TYPE_NODE
@@ -50,9 +50,9 @@ void insert_HT(TYPE_NODE *HT[], S_WORD w);
 
 void delete_HT(TYPE_NODE *HT[]);
 
-void display_HT(TYPE_NODE *HT[]);
+void display_HT(TYPE_NODE *HT[], char *message);
 
-S_WORD make_word(char *text);
+S_WORD make_word(char *text, char *document);
 
 void display_word(TYPE_NODE * p);
 
@@ -60,4 +60,4 @@ void append_char(char* s, char c);
 
 void get_file_names(const char *path);
 
-void readWords(TYPE_NODE *HT[], FILE *fp);
+void readWords(TYPE_NODE *HT[], FILE *fp, char *document);
