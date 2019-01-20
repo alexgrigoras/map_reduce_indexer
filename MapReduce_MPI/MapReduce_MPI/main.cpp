@@ -8,153 +8,8 @@
  ============================================================================
  */
 
-/// Libraries
-#include <stdio.h>	
-#include <stdlib.h>
-#include <fstream>
-#include <dirent.h> 
-#include <list>	
-#include <ctime>
-#include "mpi.h"
-
-using namespace std;
-
-/// Define macros
-#define NR_PROCESSES 26
-#define DIR_NAME "test_files"
-#define FILE_TXT 32768
-#define ROOT 0
-#define NAME_SIZE 261
-#define EMPTY_CHAR ""
-#define R_CHOICE 1					
-#define R_LEADER 2
-#define S_LEADER 1
-#define S_NONLIDER 0
-
-struct words
-{
-	char *word;
-	int frequency;
-};
-
-void append_char(char* s, char c) {
-	int len = strlen(s);
-	s[len] = c;
-	s[len + 1] = '\0';
-}
-
-void get_file_names(const char *path)
-{
-	/// Variables
-	int process = 0;							// process to send file name
-	int tag = 0;								// tag for communication
-	DIR *d;										//
-	struct dirent *dir;							//
-	char *fileName;								// stores file name
-
-	fileName = (char*)malloc(NAME_SIZE * sizeof(char));
-
-	d = opendir(path);
-	if (d)
-	{
-		while ((dir = readdir(d)) != NULL)
-		{
-			if (dir->d_type == FILE_TXT)
-			{
-				strcpy_s(fileName, sizeof(dir->d_name), dir->d_name);
-				process++;
-				MPI_Send(fileName, strlen(fileName) + 1, MPI_CHAR, process, tag, MPI_COMM_WORLD);
-			}
-		}
-		closedir(d);
-	}
-	else
-	{
-		printf("> Could not open current directory");
-		exit(EXIT_FAILURE);
-	}
-}
-
-list<words> readWords(FILE *fp)
-{
-	char c;
-	bool nextWord = false;
-	char word[1024] = "";
-	list<words> wordList;
-
-	while ((c = fgetc(fp)) != EOF)
-	{
-		if ((c == ' ' || c == '\n') && !nextWord)
-		{
-			// create new word
-			nextWord = true;
-			words wordVar;
-			wordVar.word = (char*)malloc(NAME_SIZE * sizeof(char));
-			strcpy_s(wordVar.word, strlen(word) + 1, word);
-			wordVar.frequency = 1;
-
-			// check if it exists
-			list<words>::iterator ListItem;
-			bool elemExists = false;
-			for (ListItem = wordList.begin(); ListItem != wordList.end(); ++ListItem)
-			{
-				if (strcmp(ListItem->word, wordVar.word) == 0)
-				{
-					ListItem->frequency++;
-					elemExists = true;
-				}
-			}
-
-			// add it in list if it doesn't exists
-			if (!elemExists)
-			{
-				wordList.push_back(wordVar);
-			}
-
-			// empty read word
-			strcpy_s(word, strlen(EMPTY_CHAR) + 1, EMPTY_CHAR);
-		}
-		else if(c >= -1 && c <= 255 && isalpha(c))
-		{ 
-			nextWord = false;
-			append_char(word, tolower(c));
-		}
-	}
-
-	return wordList;
-}
-
-void display_words(char *fileName, list<words> wordList, bool sort = false)
-{
-	// sort words
-	if(sort)
-	{
-		wordList.sort([](const words &f, const words &s) {
-			if (strcmp(f.word, s.word) < 0)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
-		});
-	}
-	
-	// display words
-	printf("<%s,{", fileName);
-	for (std::list<words>::iterator it = wordList.begin(); it != wordList.end(); ++it)
-	{
-		printf("%s:%d", it->word, it->frequency);
-		++it;
-		if (it != wordList.end())
-		{
-			printf(",");
-		}
-		--it;
-	}
-	printf(">\n");
-}
+/// Header
+#include "header.h"
 
 int main(int argc, char* argv[]) {
 	/// Variables
@@ -166,6 +21,8 @@ int main(int argc, char* argv[]) {
 	char *filePath;								//
 	FILE *fp;									//
 	errno_t err;
+	///
+	TYPE_NODE *HT[M];
 	///
 	int nrDimensions = 2;					// plasa de procesoare are 1 dimensiune
 	int nrElemDim = NR_PROCESSES;			// numarul de elemente pe fiecare dimensiune in parte = NP
@@ -204,6 +61,8 @@ int main(int argc, char* argv[]) {
 	message = (char*)malloc(NAME_SIZE*sizeof(char));			
 	filePath = (char*)malloc(NAME_SIZE * sizeof(char));
 
+	initialize_HT(HT);
+
 	// if the process is ROOT
 	if (myRank == ROOT) {
 		get_file_names(DIR_NAME);					// get file names and number of them
@@ -224,11 +83,17 @@ int main(int argc, char* argv[]) {
 		}
 		// measure time
 		clock_t begin = clock();
+		
+		readWords(HT, fp);
 
-		// list of words
-		list<words> wordList;
-		wordList = readWords(fp);	
-		//display_words(message, wordList);
+		/*
+		if (myRank == 20)
+		{
+			printf("<%s,{", message);
+			display_HT(HT);
+			printf("}>\n");
+		}
+		*/
 
 		// get elapsed time
 		clock_t end = clock();
