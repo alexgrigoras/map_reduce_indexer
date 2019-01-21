@@ -106,7 +106,7 @@ int main(int argc, char* argv[]) {
 		//display_HT(HT);
 		write_HT_to_file(HT, fp_write);
 		fclose(fp_write);
-
+		
 		// get elapsed time
 		clock_t end = clock();
 		elapsedSecs = double(end - begin) / CLOCKS_PER_SEC;
