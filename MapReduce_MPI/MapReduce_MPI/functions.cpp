@@ -74,6 +74,30 @@ void display_word(TYPE_NODE * p)
 	printf("<%s,{%s,%d}>", p->word.text, p->word.document, p->word.frequency);
 }
 
+void write_HT_to_file(TYPE_NODE *HT[], FILE *fp)
+{
+	for (int i = 0; i < M; i++) {
+		if (HT[i] != 0)
+		{
+			//cout << "Records with dispersion: " << i << endl;
+			TYPE_NODE* p = HT[i];
+			int count = 0;
+			while (p != 0)
+			{
+				count++;
+				write_word_to_file(p, fp);
+				p = p->next;
+			}
+			//cout << "There are: "<< count << " records" << endl;
+		}
+	}
+}
+
+void write_word_to_file(TYPE_NODE * p, FILE *fp)
+{
+	fprintf(fp, "%s %s %d\n", p->word.text, p->word.document, p->word.frequency);
+}
+
 void insert_HT(TYPE_NODE *HT[], S_WORD w)
 {
 	TYPE_NODE* p = new TYPE_NODE;

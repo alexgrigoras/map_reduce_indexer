@@ -2,7 +2,7 @@
  ============================================================================
  Name        : main.cpp
  Author      : Alexandru Grigoras
- Version     : 0.2
+ Version     : 0.3
  Copyright   : Alexandru Grigoras
  Description : MapReduce MPI
  ============================================================================
@@ -19,8 +19,11 @@ int main(int argc, char* argv[]) {
 	MPI_Status status;								// return status for receive 
 	char *message;									// message buffer for receive
 	char *filePath;									// stores path to the file / file name
-	FILE *fp;										// opened file object
+	char *filePathResult;									// stores path to the file / file name
+	FILE *fp_read;									// opened file object
 	errno_t err;									// error message for file open problem
+	FILE *fp_write;									// opened file object
+	errno_t err_write;								// error message for file open problem
 	///
 	TYPE_NODE *HT[M];
 	list<TYPE_NODE*> HT_list;
@@ -58,6 +61,7 @@ int main(int argc, char* argv[]) {
 
 	message = (char*)malloc(NAME_SIZE*sizeof(char));			
 	filePath = (char*)malloc(NAME_SIZE * sizeof(char));
+	filePathResult = (char*)malloc(NAME_SIZE * sizeof(char));
 
 	initialize_HT(HT);
 
@@ -77,21 +81,31 @@ int main(int argc, char* argv[]) {
 		//printf(" [%d] received file name: %s\n", myRank, filePath);
 
 		// open file with received name
-		err = fopen_s(&fp, filePath, "r");
+		err = fopen_s(&fp_read, filePath, "r");
 		if (err)
 		{
-			perror("> Error while opening the file.\n");
+			perror("> Error while opening the file received.\n");
 			exit(EXIT_FAILURE);
 		}
+
 		// measure time
 		clock_t begin = clock();
 		
-		readWords(HT, fp, message);
+		readWords(HT, fp_read, message);
+		fclose(fp_read);
 
-		if (myRank == 20)
+		// write words on file
+		snprintf(filePathResult, strlen(DIR_NAME_RESULT) + 1 + strlen(message) + 1, "%s%c%s", DIR_NAME_RESULT, '/', message);
+		err_write = fopen_s(&fp_write, filePathResult, "w");
+		if (err_write)
 		{
-			//display_HT(HT, message);
+			perror("> Error while opening the file result.\n");
+			exit(EXIT_FAILURE);
 		}
+
+		//display_HT(HT);
+		write_HT_to_file(HT, fp_write);
+		fclose(fp_write);
 
 		// get elapsed time
 		clock_t end = clock();
@@ -134,19 +148,19 @@ int main(int argc, char* argv[]) {
 
 	if (statute == S_LEADER)
 	{
-		//printf("> Process[%d] TOOK THE MOST TIME: %lf\n", myRank, sendMessage);
+		printf("> Process[%d] TOOK THE MOST TIME: %lf\n", myRank, sendMessage);
 	}
 	else 
 	{
-		//printf("> Process[%d] took: %lf\n", myRank, sendMessage);
+		printf("> Process[%d] took: %lf\n", myRank, sendMessage);
 	}
 
 	// ----------------------------------------------------------------------------------------------------------------------
 
 	// ETAPA 3 --------------------------------------------------------------------------------------------------------------
-
+	/*
 	/// create a type for struct S_WORD
-	const int nitems = 3;
+	int nitems = 3;
 	int blocklengths[3] = { NAME_SIZE, 1, NAME_SIZE };
 	MPI_Datatype types[3] = { MPI_CHAR, MPI_INT, MPI_CHAR };
 	MPI_Datatype mpi_word_type;
@@ -160,8 +174,18 @@ int main(int argc, char* argv[]) {
 	MPI_Type_commit(&mpi_word_type);
 
 	/// create a type for TYPE_NODE
-	// to be implemented
+	nitems = 2;
+	MPI_Datatype mpi_node_type;
+	MPI_Aint offsets_node[2];
+	int blocklengths_node[2] = { 1, 1 };
+	MPI_Datatype types_node[2] = { mpi_word_type, mpi_node_type };
 
+	offsets[0] = offsetof(TYPE_NODE, word);
+	offsets[1] = offsetof(TYPE_NODE, next);
+
+	MPI_Type_create_struct(nitems, blocklengths_node, offsets_node, types_node, &mpi_node_type);
+	MPI_Type_commit(&mpi_node_type);
+	
 	if (myRank == ROOT)
 	{
 		for (int i = 0; i < NR_PROCESSES - 1; i++) {
@@ -184,13 +208,14 @@ int main(int argc, char* argv[]) {
 		//MPI_Send(HT, M, mpi_word_type, ROOT, tag, MPI_COMM_WORLD);
 
 	}
-
+	*/
 	// ----------------------------------------------------------------------------------------------------------------------
 
 	/// remove cartezian communication and dealocate memory
 	MPI_Comm_free(&commCart);
 	free(message);
 	free(filePath);
+	free(filePathResult);
 
 	/// MPI finalization
 	MPI_Finalize();								// shut down MPI

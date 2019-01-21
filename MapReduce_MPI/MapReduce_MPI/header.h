@@ -14,6 +14,7 @@
 #define M 26					// old: 503
 #define NR_PROCESSES 26
 #define DIR_NAME "test_files"
+#define DIR_NAME_RESULT "result_files"
 #define FILE_TXT 32768
 #define ROOT 0
 #define NAME_SIZE 261
@@ -51,9 +52,13 @@ void delete_HT(TYPE_NODE *HT[]);
 
 void display_HT(TYPE_NODE *HT[]);
 
+void write_HT_to_file(TYPE_NODE *HT[], FILE *fp);
+
 S_WORD make_word(char *text, char *document);
 
 void display_word(TYPE_NODE * p);
+
+void write_word_to_file(TYPE_NODE * p, FILE *fp);
 
 void append_char(char* s, char c);
 
