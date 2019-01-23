@@ -20,13 +20,13 @@ int main(int argc, char* argv[]) {
 	char *message;									// message buffer for receive
 	char *filePath;									// stores path to the file / file name
 	char *filePathResult;							// stores path to the file / file name
+	char fileNames[MAX_NR_FILES][NAME_SIZE];		// stores the file names
 	FILE *fp_read;									// opened file object
 	errno_t err;									// error message for file open problem
 	FILE *fp_write;									// opened file object
 	errno_t err_write;								// error message for file open problem
 	///
 	TYPE_NODE *HT[M];
-	list<S_WORD> WORDS_list;
 	///
 	int nrDimensions = 2;							// processes net
 	int nrElemDim = NR_PROCESSES;					// number of processes on each dimension
@@ -71,7 +71,7 @@ int main(int argc, char* argv[]) {
 
 	/// if the process is ROOT
 	if (myRank == ROOT) {
-		get_file_names(DIR_NAME);					// get file names and number of them
+		get_file_names(DIR_NAME, fileNames);				// get file names and number of them
 	}
 	/// if the process is worker
 	else {
@@ -159,28 +159,44 @@ int main(int argc, char* argv[]) {
 
 	// ETAPA 3 --------------------------------------------------------------------------------------------------------------
 
-	if (myRank == 20)
+	if (myRank == ROOT)
 	{
 		char tmp[1024] = { 0x0 };
 		errno_t err;
 		FILE *in;
-		err = fopen_s(&in, "result_files/1.txt", "r");			// open file on command line
-		char delim[2] = " ";
 
-		if (err)
+		for (int i = 0; i < MAX_NR_FILES; i++)
 		{
-			perror("File open error");
-			exit(EXIT_FAILURE);
+			snprintf(filePathResult, strlen(DIR_NAME_RESULT) + 1 + strlen(fileNames[i]) + 1, "%s%c%s", DIR_NAME_RESULT, '/', fileNames[i]);
+			//printf("opening file: %s\n", filePathResult);
+
+			err = fopen_s(&in, filePathResult, "r");			// open file on command line
+			char delim[2] = " ";
+
+			if (err)
+			{
+				perror("File open error");
+				exit(EXIT_FAILURE);
+			}
+			while (fgets(tmp, sizeof(tmp), in) != 0)			// read a record
+			{
+				int i = 0;
+				S_WORD newWord;
+				newWord = parse_line(tmp, delim);				//
+				insert_HT(HT, newWord);
+				display_word(newWord);
+			}
+			fclose(in);
 		}
-		while (fgets(tmp, sizeof(tmp), in) != 0)				// read a record
-		{
-			int i = 0;
-			S_WORD newWord;
-			newWord = parse_line(tmp, delim);					// whack record into fields 
-			display_word(newWord);
-			printf("\n");
-		}
-		fclose(in);
+		FILE *out;
+
+		// write words on file
+		snprintf(filePathResult, strlen(DIR_NAME_RESULT) + 1 + strlen(FINAL_RESULT) + 1, "%s%c%s", DIR_NAME_RESULT, '/', FINAL_RESULT);
+		err_write = fopen_s(&out, filePathResult, "w");
+
+		write_HT_to_file(HT, out);
+
+		fclose(out);
 	}
 	/*
 	/// create a type for struct S_WORD

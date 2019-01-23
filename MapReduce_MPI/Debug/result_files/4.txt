@@ -1,2021 +1,2021 @@
-applaud 4.txt 1
-audience 4.txt 1
-absence 4.txt 1
-alliance 4.txt 2
-already 4.txt 1
-affection 4.txt 1
-apply 4.txt 1
-appointment 4.txt 1
-applied 4.txt 2
-assistance 4.txt 1
-age 4.txt 1
-awoke 4.txt 1
-accept 4.txt 1
-applause 4.txt 1
-attached 4.txt 1
-approaches 4.txt 1
-agree 4.txt 1
-ago 4.txt 1
-avoid 4.txt 1
-approaching 4.txt 2
-advantage 4.txt 1
-assembled 4.txt 1
-appetite 4.txt 1
-around 4.txt 2
-ashamed 4.txt 2
-arent 4.txt 1
-afar 4.txt 1
-avarice 4.txt 1
-attacked 4.txt 1
-alone 4.txt 1
-aquarrelling 4.txt 1
-aloof 4.txt 1
-accustom 4.txt 1
-answer 4.txt 3
-aloft 4.txt 2
-allowed 4.txt 1
-act 4.txt 1
-actually 4.txt 1
-awakened 4.txt 1
-afternoon 4.txt 2
-appearances 4.txt 1
-apart 4.txt 1
-aside 4.txt 1
-arose 4.txt 1
-ants 4.txt 1
-asking 4.txt 1
-attractions 4.txt 1
-addition 4.txt 1
-allow 4.txt 2
-ask 4.txt 1
-arisen 4.txt 1
-air 4.txt 4
-active 4.txt 1
-arrange 4.txt 2
-almost 4.txt 2
-attacking 4.txt 1
-armourers 4.txt 1
-alas 4.txt 3
-aid 4.txt 3
-approached 4.txt 3
-antlers 4.txt 2
-admiring 4.txt 1
-against 4.txt 1
-armies 4.txt 1
-arena 4.txt 1
-afterwards 4.txt 6
-asbut 4.txt 1
-asked 4.txt 12
-annoyed 4.txt 1
-actors 4.txt 1
-appointed 4.txt 1
-apologise 4.txt 2
-acks 4.txt 1
-aimed 4.txt 1
-ah 4.txt 14
-appearance 4.txt 2
-attack 4.txt 2
-approach 4.txt 4
-appeared 4.txt 4
-angry 4.txt 1
-alive 4.txt 1
-able 4.txt 4
-asleep 4.txt 1
-attempted 4.txt 2
-about 4.txt 21
-always 4.txt 7
-advice 4.txt 8
-ale 4.txt 1
-answered 4.txt 2
-after 4.txt 19
-arrived 4.txt 2
-axe 4.txt 4
-accident 4.txt 1
-again 4.txt 20
-agreed 4.txt 4
-anything 4.txt 2
-animal 4.txt 2
-an 4.txt 33
-away 4.txt 20
-arbiter 4.txt 1
-animals 4.txt 8
-along 4.txt 9
-ahunting 4.txt 1
-also 4.txt 2
-another 4.txt 16
-as 4.txt 80
-across 4.txt 1
-any 4.txt 10
-all 4.txt 57
-ate 4.txt 2
-am 4.txt 15
-at 4.txt 76
-are 4.txt 18
-amid 4.txt 2
-among 4.txt 7
-arrow 4.txt 6
-asss 4.txt 2
-avaricious 4.txt 3
-ant 4.txt 5
-a 4.txt 346
-ass 4.txt 22
-androcles 4.txt 10
-and 4.txt 570
-aesops 4.txt 1
-bride 4.txt 1
-behaves 4.txt 1
-becomingly 4.txt 1
-brown 4.txt 1
-buy 4.txt 2
-betide 4.txt 1
-beg 4.txt 1
-break 4.txt 3
-bade 4.txt 1
-beautiful 4.txt 1
-bent 4.txt 1
-beaten 4.txt 2
-bell 4.txt 2
-boat 4.txt 1
-bolder 4.txt 1
-bleed 4.txt 1
-blood 4.txt 1
-bush 4.txt 1
-bridge 4.txt 2
-behind 4.txt 1
-begin 4.txt 1
-brotherly 4.txt 1
-beyond 4.txt 1
-believe 4.txt 1
-became 4.txt 1
-blowing 4.txt 2
-bitter 4.txt 1
-blind 4.txt 2
-become 4.txt 1
-brass 4.txt 2
-bruin 4.txt 1
-bears 4.txt 1
-brayed 4.txt 1
-broken 4.txt 2
-because 4.txt 2
-brutal 4.txt 1
-bystanders 4.txt 1
-believed 4.txt 1
-bids 4.txt 1
-bagpipes 4.txt 2
-bite 4.txt 1
-barked 4.txt 1
-belonged 4.txt 1
-boughs 4.txt 1
-bag 4.txt 1
-brings 4.txt 1
-bending 4.txt 1
-boasting 4.txt 4
-bow 4.txt 1
-boldly 4.txt 1
-bother 4.txt 1
-bearing 4.txt 1
-breeds 4.txt 1
-bridled 4.txt 1
-bunch 4.txt 2
-boys 4.txt 3
-buried 4.txt 1
-body 4.txt 4
-begged 4.txt 2
-branches 4.txt 2
-bounded 4.txt 1
-beat 4.txt 1
-battle 4.txt 3
-beast 4.txt 2
-bounding 4.txt 1
-bring 4.txt 2
-bleeding 4.txt 1
-burst 4.txt 1
-bigger 4.txt 3
-blew 4.txt 8
-broad 4.txt 1
-behaviour 4.txt 1
-back 4.txt 11
-borrowed 4.txt 1
-bill 4.txt 1
-blow 4.txt 5
-buzzing 4.txt 1
-bosom 4.txt 1
-black 4.txt 2
-brave 4.txt 1
-bristles 4.txt 1
-business 4.txt 1
-boldest 4.txt 1
-bank 4.txt 4
-bird 4.txt 5
-bound 4.txt 2
-being 4.txt 4
-big 4.txt 9
-broke 4.txt 2
-blinking 4.txt 1
-burden 4.txt 1
-bull 4.txt 3
-boar 4.txt 1
-breath 4.txt 5
-bright 4.txt 1
-branch 4.txt 5
-barking 4.txt 1
-better 4.txt 8
-bread 4.txt 1
-bacon 4.txt 2
-beans 4.txt 2
-both 4.txt 6
-brought 4.txt 3
-best 4.txt 5
-began 4.txt 16
-bit 4.txt 5
-beak 4.txt 3
-bone 4.txt 3
-between 4.txt 5
-beware 4.txt 2
-brook 4.txt 1
-before 4.txt 16
-bad 4.txt 4
-beginning 4.txt 1
-barleycorn 4.txt 1
-been 4.txt 23
-by 4.txt 55
-but 4.txt 113
-be 4.txt 44
-beneath 4.txt 2
-buffoon 4.txt 3
-brains 4.txt 7
-bundle 4.txt 4
-bear 4.txt 7
-belling 4.txt 2
-boy 4.txt 14
-bald 4.txt 5
-belly 4.txt 5
-beasts 4.txt 15
-birds 4.txt 15
-bat 4.txt 5
-cling 4.txt 1
-concealed 4.txt 1
-cries 4.txt 1
-charge 4.txt 1
-changed 4.txt 1
-couple 4.txt 1
-chickens 4.txt 1
-count 4.txt 1
-chip 4.txt 1
-calculating 4.txt 1
-claws 4.txt 2
-calf 4.txt 2
-claimed 4.txt 1
-challenge 4.txt 2
-consists 4.txt 1
-case 4.txt 2
-common 4.txt 1
-council 4.txt 1
-cliff 4.txt 2
-chief 4.txt 2
-conversation 4.txt 1
-consider 4.txt 3
-crossing 4.txt 1
-cloud 4.txt 1
-cloak 4.txt 3
-cunning 4.txt 1
-congratulate 4.txt 1
-craned 4.txt 1
-captives 4.txt 1
-cage 4.txt 1
-cool 4.txt 1
-cold 4.txt 2
-cell 4.txt 1
-casting 4.txt 1
-companion 4.txt 1
-catch 4.txt 1
-corner 4.txt 1
-contact 4.txt 1
-comrade 4.txt 1
-clothes 4.txt 1
-cudgelling 4.txt 1
-crows 4.txt 1
-crack 4.txt 1
-crouched 4.txt 1
-close 4.txt 3
-chanced 4.txt 1
-consequence 4.txt 1
-comb 4.txt 1
-conduct 4.txt 1
-condemned 4.txt 1
-complained 4.txt 1
-considerable 4.txt 1
-calling 4.txt 1
-company 4.txt 2
-coins 4.txt 1
-change 4.txt 3
-cosily 4.txt 1
-confusion 4.txt 1
-coming 4.txt 6
-cry 4.txt 3
-contains 4.txt 1
-clever 4.txt 1
-cast 4.txt 2
-contented 4.txt 1
-continued 4.txt 2
-chat 4.txt 1
-corn 4.txt 2
-chirping 4.txt 1
-contended 4.txt 1
-contempt 4.txt 2
-ceremony 4.txt 1
-conditions 4.txt 1
-conquer 4.txt 1
-curious 4.txt 1
-condition 4.txt 2
-consented 4.txt 1
-chafes 4.txt 1
-chained 4.txt 1
-collar 4.txt 1
-certain 4.txt 1
-cutting 4.txt 1
-crown 4.txt 1
-collected 4.txt 2
-conflict 4.txt 1
-court 4.txt 1
-captured 4.txt 3
-causing 4.txt 1
-cheat 4.txt 1
-closely 4.txt 2
-contained 4.txt 1
-child 4.txt 7
-children 4.txt 1
-closer 4.txt 1
-curse 4.txt 1
-continual 4.txt 1
-crashing 4.txt 1
-countrymen 4.txt 1
-cruel 4.txt 1
-commotion 4.txt 1
-croaking 4.txt 1
-constitution 4.txt 1
-caring 4.txt 1
-cords 4.txt 1
-cord 4.txt 1
-careful 4.txt 1
-carry 4.txt 5
-caught 4.txt 8
-clumsy 4.txt 1
-climb 4.txt 1
-commenced 4.txt 2
-carried 4.txt 1
-cowards 4.txt 1
-cave 4.txt 5
-caw 4.txt 1
-cried 4.txt 15
-cakes 4.txt 2
-come 4.txt 28
-course 4.txt 5
-cheese 4.txt 4
-cousin 4.txt 5
-caused 4.txt 3
-cattle 4.txt 2
-countrymans 4.txt 1
-content 4.txt 3
-could 4.txt 35
-chase 4.txt 1
-comes 4.txt 1
-capacity 4.txt 1
-carcass 4.txt 1
-cut 4.txt 4
-came 4.txt 63
-crossed 4.txt 1
-cross 4.txt 1
-carrying 4.txt 4
-care 4.txt 2
-call 4.txt 4
-cause 4.txt 2
-cannot 4.txt 12
-called 4.txt 2
-can 4.txt 12
-chance 4.txt 2
-countryman 4.txt 7
-catmaiden 4.txt 2
-crabs 4.txt 3
-clothing 4.txt 3
-cat 4.txt 13
-crow 4.txt 10
-country 4.txt 10
-crane 4.txt 5
-cock 4.txt 9
-difficulties 4.txt 1
-drought 4.txt 1
-drunk 4.txt 1
-during 4.txt 1
-duly 4.txt 1
-dimity 4.txt 1
-destruction 4.txt 1
-daughter 4.txt 2
-dear 4.txt 1
-declined 4.txt 2
-darted 4.txt 1
-distrust 4.txt 1
-dispense 4.txt 1
-drive 4.txt 1
-decamped 4.txt 1
-dug 4.txt 1
-dig 4.txt 1
-drowned 4.txt 1
-drop 4.txt 1
-donkeys 4.txt 1
-didnt 4.txt 1
-distress 4.txt 1
-deeper 4.txt 1
-driving 4.txt 2
-dispute 4.txt 1
-decide 4.txt 1
-disputing 4.txt 2
-decree 4.txt 1
-declared 4.txt 1
-despair 4.txt 2
-dwell 4.txt 2
-deserts 4.txt 1
-dust 4.txt 1
-disclose 4.txt 1
-disguise 4.txt 1
-delight 4.txt 2
-daintier 4.txt 1
-depart 4.txt 1
-daring 4.txt 1
-dark 4.txt 1
-dance 4.txt 2
-deceptive 4.txt 1
-deceiving 4.txt 2
-difficulty 4.txt 2
-debating 4.txt 1
-devices 4.txt 1
-deeply 4.txt 1
-distributing 4.txt 1
-discussing 4.txt 1
-desire 4.txt 3
-drawing 4.txt 1
-dull 4.txt 1
-dry 4.txt 2
-decided 4.txt 1
-discussion 4.txt 1
-destroying 4.txt 1
-dart 4.txt 1
-despise 4.txt 2
-den 4.txt 1
-deep 4.txt 2
-discovered 4.txt 2
-deserves 4.txt 1
-dine 4.txt 1
-dish 4.txt 2
-despicable 4.txt 1
-dead 4.txt 3
-distance 4.txt 3
-deeds 4.txt 2
-drown 4.txt 1
-dancing 4.txt 1
-dared 4.txt 1
-downrplashto 4.txt 1
-determined 4.txt 3
-destroy 4.txt 1
-despised 4.txt 1
-doing 4.txt 4
-desired 4.txt 4
-dainty 4.txt 2
-danced 4.txt 1
-day 4.txt 28
-dying 4.txt 3
-double 4.txt 2
-danger 4.txt 4
-drove 4.txt 1
-drew 4.txt 2
-days 4.txt 7
-does 4.txt 2
-door 4.txt 1
-dinner 4.txt 6
-do 4.txt 41
-dogs 4.txt 5
-diningroom 4.txt 1
-done 4.txt 4
-divided 4.txt 3
-dropped 4.txt 7
-died 4.txt 3
-dont 4.txt 4
-drinking 4.txt 2
-dare 4.txt 3
-drink 4.txt 1
-did 4.txt 23
-down 4.txt 46
-donkey 4.txt 10
-death 4.txt 16
-doe 4.txt 3
-desiring 4.txt 3
-dog 4.txt 21
-edge 4.txt 1
-eagerly 4.txt 1
-encourage 4.txt 1
-easier 4.txt 1
-entered 4.txt 1
-efforts 4.txt 1
-eldest 4.txt 1
-extracted 4.txt 1
-enrage 4.txt 1
-escape 4.txt 3
-encumbrance 4.txt 1
-enjoyed 4.txt 1
-entangled 4.txt 1
-exist 4.txt 1
-empty 4.txt 1
-effects 4.txt 1
-egg 4.txt 2
-eyes 4.txt 2
-envy 4.txt 1
-eaten 4.txt 1
-earthenware 4.txt 2
-example 4.txt 2
-enemys 4.txt 2
-entirely 4.txt 1
-elder 4.txt 1
-each 4.txt 6
-execution 4.txt 1
-expressed 4.txt 1
-executed 4.txt 1
-excitement 4.txt 1
-enjoy 4.txt 1
-enjoying 4.txt 1
-escaping 4.txt 2
-ear 4.txt 4
-everything 4.txt 1
-escapes 4.txt 1
-emperor 4.txt 2
-escaped 4.txt 3
-either 4.txt 1
-equally 4.txt 1
-easily 4.txt 7
-enemies 4.txt 6
-easy 4.txt 3
-enemy 4.txt 7
-earthquake 4.txt 1
-earth 4.txt 2
-even 4.txt 3
-evil 4.txt 1
-else 4.txt 2
-ears 4.txt 1
-end 4.txt 5
-exchange 4.txt 1
-eye 4.txt 4
-eating 4.txt 3
-ever 4.txt 4
-expect 4.txt 1
-enough 4.txt 3
-every 4.txt 10
-eat 4.txt 4
-excuse 4.txt 2
-espied 4.txt 1
-eggs 4.txt 5
-eagle 4.txt 8
-envious 4.txt 3
-finished 4.txt 1
-fair 4.txt 1
-fight 4.txt 3
-final 4.txt 1
-frock 4.txt 1
-fowls 4.txt 1
-feathered 4.txt 1
-fluttered 4.txt 1
-families 4.txt 1
-faggots 4.txt 1
-feared 4.txt 1
-faggot 4.txt 2
-fixed 4.txt 1
-fate 4.txt 1
-feed 4.txt 2
-failed 4.txt 1
-foxes 4.txt 3
-fresh 4.txt 1
-fill 4.txt 1
-followed 4.txt 1
-forefeet 4.txt 1
-fools 4.txt 2
-friendship 4.txt 1
-forever 4.txt 1
-far 4.txt 3
-full 4.txt 6
-fishing 4.txt 1
-floated 4.txt 1
-fellow 4.txt 2
-flat 4.txt 1
-fool 4.txt 1
-fright 4.txt 1
-fall 4.txt 2
-forward 4.txt 3
-flock 4.txt 1
-fooled 4.txt 1
-filled 4.txt 1
-forth 4.txt 2
-flying 4.txt 1
-flayed 4.txt 1
-force 4.txt 1
-familiarity 4.txt 1
-family 4.txt 1
-fast 4.txt 1
-follow 4.txt 3
-few 4.txt 3
-fat 4.txt 1
-free 4.txt 2
-foolish 4.txt 1
-fix 4.txt 1
-floor 4.txt 1
-freed 4.txt 1
-friendly 4.txt 2
-fawned 4.txt 1
-finding 4.txt 3
-flee 4.txt 1
-forest 4.txt 6
-fled 4.txt 3
-fallen 4.txt 2
-fangs 4.txt 2
-fire 4.txt 1
-folks 4.txt 1
-frightened 4.txt 4
-field 4.txt 4
-feet 4.txt 5
-frisked 4.txt 1
-fed 4.txt 2
-favourite 4.txt 2
-face 4.txt 6
-feeling 4.txt 1
-flatterers 4.txt 1
-future 4.txt 1
-figure 4.txt 2
-feel 4.txt 3
-feathers 4.txt 3
-foot 4.txt 5
-fear 4.txt 5
-flew 4.txt 3
-feast 4.txt 1
-fine 4.txt 10
-found 4.txt 21
-fare 4.txt 1
-freely 4.txt 1
-friend 4.txt 12
-forgotten 4.txt 1
-forgiven 4.txt 1
-forgive 4.txt 2
-forget 4.txt 3
-food 4.txt 11
-farmer 4.txt 8
-farmers 4.txt 4
-felt 4.txt 7
-fourth 4.txt 1
-first 4.txt 6
-front 4.txt 2
-fell 4.txt 8
-father 4.txt 9
-find 4.txt 4
-from 4.txt 36
-for 4.txt 67
-farmyard 4.txt 1
-fish 4.txt 9
-four 4.txt 5
-friends 4.txt 12
-fellows 4.txt 4
-fisher 4.txt 7
-fly 4.txt 6
-frogs 4.txt 11
-fox 4.txt 64
-file 4.txt 3
-frog 4.txt 6
-fables 4.txt 2
-glass 4.txt 1
-gilded 4.txt 1
-gives 4.txt 1
-girl 4.txt 1
-gratified 4.txt 1
-grisly 4.txt 1
-gathering 4.txt 1
-gains 4.txt 1
-gloat 4.txt 2
-garden 4.txt 1
-gone 4.txt 1
-group 4.txt 1
-gods 4.txt 2
-glory 4.txt 1
-gladly 4.txt 2
-greedy 4.txt 1
-glittering 4.txt 1
-grief 4.txt 1
-grant 4.txt 1
-galloped 4.txt 1
-grey 4.txt 2
-granted 4.txt 2
-grudge 4.txt 1
-getting 4.txt 3
-generally 4.txt 1
-grain 4.txt 1
-gardens 4.txt 1
-general 4.txt 4
-guide 4.txt 3
-greater 4.txt 2
-gets 4.txt 1
-given 4.txt 1
-get 4.txt 13
-gaunt 4.txt 1
-giving 4.txt 1
-goodnatured 4.txt 1
-glided 4.txt 1
-growing 4.txt 3
-glaring 4.txt 1
-good 4.txt 11
-gap 4.txt 2
-gathered 4.txt 1
-gobbling 4.txt 1
-greatest 4.txt 2
-grow 4.txt 2
-gnawed 4.txt 1
-gave 4.txt 6
-growled 4.txt 1
-gored 4.txt 1
-grudges 4.txt 1
-grew 4.txt 5
-gasping 4.txt 1
-ground 4.txt 5
-greet 4.txt 1
-glossy 4.txt 1
-goodday 4.txt 1
-going 4.txt 11
-goodbye 4.txt 3
-growling 4.txt 1
-grand 4.txt 2
-gifts 4.txt 1
-go 4.txt 12
-greed 4.txt 2
-gratitude 4.txt 3
-grinned 4.txt 1
-give 4.txt 17
-groaning 4.txt 3
-gorging 4.txt 1
-great 4.txt 9
-growl 4.txt 2
-grumbled 4.txt 1
-grasping 4.txt 1
-got 4.txt 15
-gasped 4.txt 1
-goat 4.txt 7
-golden 4.txt 2
-goose 4.txt 4
-gold 4.txt 8
-god 4.txt 3
-grasshopper 4.txt 7
-grapes 4.txt 3
-hoping 4.txt 1
-hiss 4.txt 1
-hissing 4.txt 1
-hissed 4.txt 1
-hideously 4.txt 1
-humble 4.txt 1
-harness 4.txt 1
-hatched 4.txt 1
-hat 4.txt 1
-hunting 4.txt 1
-hoofmarks 4.txt 1
-honoured 4.txt 1
-highly 4.txt 1
-hoped 4.txt 2
-hopeless 4.txt 1
-hiring 4.txt 1
-hedgehog 4.txt 4
-hole 4.txt 2
-hide 4.txt 1
-hulking 4.txt 1
-hadnt 4.txt 1
-hour 4.txt 1
-halfway 4.txt 1
-harder 4.txt 1
-henceforth 4.txt 1
-hurt 4.txt 1
-high 4.txt 2
-hencoop 4.txt 1
-halfdead 4.txt 1
-hereafter 4.txt 1
-hit 4.txt 2
-hint 4.txt 1
-havent 4.txt 1
-husband 4.txt 2
-hath 4.txt 1
-horrified 4.txt 1
-hearty 4.txt 2
-huntsmen 4.txt 1
-herself 4.txt 2
-hundred 4.txt 2
-hurricane 4.txt 1
-helping 4.txt 1
-hearts 4.txt 2
-however 4.txt 4
-hid 4.txt 3
-hay 4.txt 3
-hounds 4.txt 9
-hotly 4.txt 1
-hardly 4.txt 1
-held 4.txt 2
-having 4.txt 1
-hair 4.txt 5
-housedog 4.txt 1
-hunger 4.txt 2
-heavy 4.txt 4
-harm 4.txt 3
-has 4.txt 5
-hesitated 4.txt 1
-hands 4.txt 5
-himself 4.txt 14
-hoofs 4.txt 1
-hope 4.txt 4
-hungry 4.txt 1
-hot 4.txt 5
-hearth 4.txt 1
-hurried 4.txt 1
-houses 4.txt 1
-honest 4.txt 1
-here 4.txt 6
-hard 4.txt 3
-horses 4.txt 2
-happen 4.txt 1
-hero 4.txt 1
-horrible 4.txt 2
-heed 4.txt 1
-hopping 4.txt 2
-hemp 4.txt 4
-hunters 4.txt 6
-help 4.txt 11
-hold 4.txt 3
-halter 4.txt 1
-happy 4.txt 2
-hand 4.txt 4
-heels 4.txt 2
-horns 4.txt 7
-helpless 4.txt 2
-hear 4.txt 3
-huge 4.txt 6
-house 4.txt 4
-heard 4.txt 9
-heartily 4.txt 1
-honey 4.txt 1
-him 4.txt 87
-head 4.txt 14
-humph 4.txt 1
-hunted 4.txt 2
-home 4.txt 10
-happened 4.txt 10
-how 4.txt 18
-hillside 4.txt 1
-have 4.txt 42
-had 4.txt 80
-ho 4.txt 2
-he 4.txt 235
-hens 4.txt 1
-hercules 4.txt 6
-her 4.txt 49
-hare 4.txt 11
-his 4.txt 176
-hares 4.txt 7
-horse 4.txt 12
-hunter 4.txt 13
-hart 4.txt 10
-instruments 4.txt 1
-imitating 4.txt 1
-indeed 4.txt 1
-injury 4.txt 1
-interfere 4.txt 1
-important 4.txt 1
-impossible 4.txt 1
-interested 4.txt 1
-inconvenient 4.txt 1
-ill 4.txt 4
-inhuman 4.txt 1
-immense 4.txt 1
-idol 4.txt 2
-idols 4.txt 1
-intelligence 4.txt 1
-itself 4.txt 5
-irregular 4.txt 1
-insensible 4.txt 1
-iron 4.txt 2
-im 4.txt 1
-isnt 4.txt 1
-inner 4.txt 1
-insert 4.txt 1
-invited 4.txt 1
-injure 4.txt 1
-instead 4.txt 3
-indoors 4.txt 1
-immediately 4.txt 3
-idea 4.txt 1
-imitation 4.txt 2
-insult 4.txt 1
-injuries 4.txt 1
-inside 4.txt 1
-induce 4.txt 1
-is 4.txt 60
-its 4.txt 40
-into 4.txt 36
-if 4.txt 19
-i 4.txt 115
-it 4.txt 138
-in 4.txt 146
-jealous 4.txt 1
-jeer 4.txt 1
-joy 4.txt 2
-jupiter 4.txt 5
-jump 4.txt 2
-join 4.txt 2
-jays 4.txt 1
-jar 4.txt 3
-jove 4.txt 5
-joke 4.txt 3
-jesting 4.txt 1
-jumped 4.txt 9
-jellies 4.txt 1
-journey 4.txt 1
-jaws 4.txt 3
-judgment 4.txt 1
-jackal 4.txt 1
-just 4.txt 15
-jay 4.txt 4
-juno 4.txt 4
-knelt 4.txt 1
-kindness 4.txt 1
-kill 4.txt 2
-knew 4.txt 4
-kept 4.txt 3
-known 4.txt 2
-knees 4.txt 1
-keep 4.txt 8
-knows 4.txt 1
-kicked 4.txt 2
-know 4.txt 6
-kindly 4.txt 2
-killed 4.txt 3
-kid 4.txt 3
-king 4.txt 14
-laugh 4.txt 1
-lifeblood 4.txt 1
-lady 4.txt 1
-lift 4.txt 1
-longer 4.txt 1
-land 4.txt 2
-lout 4.txt 1
-lazy 4.txt 2
-load 4.txt 1
-listening 4.txt 2
-lodging 4.txt 1
-laughing 4.txt 1
-leaves 4.txt 1
-lord 4.txt 2
-liar 4.txt 1
-louder 4.txt 1
-lonely 4.txt 1
-leapt 4.txt 1
-luck 4.txt 3
-leading 4.txt 1
-lot 4.txt 2
-lofty 4.txt 1
-learnt 4.txt 1
-leaving 4.txt 1
-luckily 4.txt 2
-later 4.txt 1
-led 4.txt 2
-latter 4.txt 1
-lead 4.txt 2
-lick 4.txt 2
-longnecked 4.txt 1
-liking 4.txt 1
-left 4.txt 4
-lake 4.txt 2
-look 4.txt 7
-lives 4.txt 1
-log 4.txt 5
-laughed 4.txt 4
-living 4.txt 2
-laughter 4.txt 2
-loose 4.txt 6
-lap 4.txt 4
-licked 4.txt 2
-lifted 4.txt 3
-let 4.txt 10
-late 4.txt 2
-live 4.txt 3
-loved 4.txt 2
-lets 4.txt 2
-lair 4.txt 1
-loss 4.txt 2
-loosened 4.txt 1
-long 4.txt 11
-lie 4.txt 1
-labours 4.txt 1
-low 4.txt 2
-legs 4.txt 4
-lay 4.txt 9
-like 4.txt 15
-life 4.txt 6
-lose 4.txt 3
-lest 4.txt 1
-looked 4.txt 6
-lying 4.txt 6
-last 4.txt 28
-lambikin 4.txt 1
-lower 4.txt 1
-looking 4.txt 9
-lapping 4.txt 1
-lost 4.txt 5
-labourer 4.txt 6
-little 4.txt 27
-love 4.txt 5
-labour 4.txt 3
-lapdog 4.txt 6
-lion 4.txt 55
-lions 4.txt 9
-lamb 4.txt 8
-managed 4.txt 1
-memories 4.txt 1
-mercy 4.txt 1
-minute 4.txt 1
-money 4.txt 2
-milk 4.txt 3
-message 4.txt 1
-meaning 4.txt 1
-majestys 4.txt 2
-marriage 4.txt 1
-maiden 4.txt 2
-mortal 4.txt 1
-manner 4.txt 1
-measures 4.txt 1
-misfortune 4.txt 2
-market 4.txt 4
-mire 4.txt 1
-moonlight 4.txt 1
-mount 4.txt 1
-metal 4.txt 1
-might 4.txt 6
-muzzle 4.txt 1
-morning 4.txt 4
-mistaken 4.txt 1
-middleaged 4.txt 1
-mean 4.txt 1
-mans 4.txt 2
-making 4.txt 1
-muttering 4.txt 1
-meals 4.txt 1
-miss 4.txt 1
-moiling 4.txt 1
-morsel 4.txt 3
-missed 4.txt 1
-meeting 4.txt 3
-meet 4.txt 3
-most 4.txt 1
-middle 4.txt 1
-moaning 4.txt 1
-myself 4.txt 2
-mountain 4.txt 2
-moulting 4.txt 1
-means 4.txt 7
-manage 4.txt 2
-meal 4.txt 6
-murderer 4.txt 1
-much 4.txt 11
-move 4.txt 4
-monster 4.txt 2
-midst 4.txt 2
-mighty 4.txt 1
-marshy 4.txt 1
-masters 4.txt 3
-majesty 4.txt 3
-mistress 4.txt 1
-mastiffs 4.txt 1
-moment 4.txt 6
-music 4.txt 1
-mouses 4.txt 1
-mice 4.txt 5
-must 4.txt 6
-make 4.txt 10
-met 4.txt 5
-mine 4.txt 1
-more 4.txt 11
-mind 4.txt 1
-made 4.txt 20
-mouth 4.txt 16
-meat 4.txt 6
-months 4.txt 1
-muddy 4.txt 2
-muddle 4.txt 1
-my 4.txt 30
-men 4.txt 11
-master 4.txt 14
-may 4.txt 18
-me 4.txt 39
-milkmaid 4.txt 3
-many 4.txt 11
-mosquitoes 4.txt 5
-mother 4.txt 10
-miser 4.txt 4
-mask 4.txt 3
-manger 4.txt 4
-mountains 4.txt 4
-members 4.txt 4
-mouse 4.txt 23
-man 4.txt 48
-nature 4.txt 3
-neighbourhood 4.txt 1
-none 4.txt 4
-news 4.txt 4
-nightingales 4.txt 2
-nought 4.txt 1
-numb 4.txt 1
-neighbour 4.txt 5
-neighbours 4.txt 2
-noise 4.txt 1
-net 4.txt 2
-nap 4.txt 4
-necessity 4.txt 1
-nest 4.txt 2
-next 4.txt 6
-necessary 4.txt 1
-noticing 4.txt 1
-nearly 4.txt 2
-nimble 4.txt 1
-neither 4.txt 1
-noble 4.txt 4
-native 4.txt 2
-named 4.txt 1
-number 4.txt 3
-narrow 4.txt 1
-near 4.txt 16
-nothing 4.txt 13
-noticed 4.txt 6
-new 4.txt 3
-notice 4.txt 2
-nobody 4.txt 4
-nets 4.txt 2
-nearer 4.txt 3
-nice 4.txt 1
-night 4.txt 8
-nose 4.txt 3
-nor 4.txt 2
-no 4.txt 22
-neck 4.txt 4
-never 4.txt 12
-now 4.txt 20
-not 4.txt 64
-names 4.txt 1
-nay 4.txt 6
-nightingale 4.txt 5
-nurse 4.txt 5
-overjoyed 4.txt 1
-occasion 4.txt 1
-outwit 4.txt 1
-ornament 4.txt 1
-older 4.txt 2
-overloading 4.txt 1
-ordered 4.txt 2
-outwits 4.txt 1
-oer 4.txt 1
-oft 4.txt 1
-owner 4.txt 1
-ones 4.txt 2
-owing 4.txt 1
-obscurity 4.txt 1
-overcoming 4.txt 1
-overcame 4.txt 1
-orchard 4.txt 1
-occurred 4.txt 3
-objection 4.txt 1
-oh 4.txt 4
-observed 4.txt 1
-outside 4.txt 3
-outcome 4.txt 1
-outcry 4.txt 2
-order 4.txt 2
-over 4.txt 13
-or 4.txt 10
-others 4.txt 4
-o 4.txt 2
-orders 4.txt 1
-often 4.txt 10
-our 4.txt 11
-offered 4.txt 1
-offer 4.txt 1
-off 4.txt 25
-ought 4.txt 1
-open 4.txt 3
-one 4.txt 71
-opened 4.txt 4
-own 4.txt 7
-only 4.txt 22
-on 4.txt 62
-out 4.txt 59
-once 4.txt 24
-of 4.txt 211
-oxen 4.txt 3
-old 4.txt 22
-oneeyed 4.txt 2
-other 4.txt 20
-oxstall 4.txt 3
-ox 4.txt 9
-pinching 4.txt 1
-porker 4.txt 1
-pig 4.txt 3
-plea 4.txt 1
-proceed 4.txt 1
-panniers 4.txt 1
-pounce 4.txt 1
-performed 4.txt 1
-possible 4.txt 1
-polly 4.txt 1
-parsons 4.txt 1
-patty 4.txt 1
-pierced 4.txt 1
-pouring 4.txt 1
-prey 4.txt 1
-pounced 4.txt 1
-proposing 4.txt 1
-parting 4.txt 1
-possibly 4.txt 1
-parents 4.txt 2
-persons 4.txt 1
-popular 4.txt 1
-plodding 4.txt 1
-plodded 4.txt 2
-procured 4.txt 1
-propose 4.txt 2
-proposed 4.txt 2
-proposal 4.txt 5
-please 4.txt 3
-pole 4.txt 3
-passersby 4.txt 1
-prowling 4.txt 1
-promise 4.txt 1
-pure 4.txt 1
-porridge 4.txt 2
-pebbles 4.txt 1
-pebble 4.txt 6
-punishment 4.txt 1
-prospect 4.txt 2
-pasture 4.txt 1
-prowl 4.txt 1
-pot 4.txt 1
-pinch 4.txt 1
-proud 4.txt 1
-precept 4.txt 1
-pinions 4.txt 1
-promising 4.txt 1
-promises 4.txt 1
-priest 4.txt 1
-punishing 4.txt 1
-pleased 4.txt 2
-power 4.txt 1
-play 4.txt 1
-played 4.txt 3
-pedestal 4.txt 1
-prayed 4.txt 8
-people 4.txt 3
-pelt 4.txt 1
-puss 4.txt 1
-plan 4.txt 2
-pack 4.txt 1
-pluck 4.txt 1
-plant 4.txt 1
-prepare 4.txt 1
-plenty 4.txt 1
-proves 4.txt 1
-public 4.txt 1
-parted 4.txt 1
-pleasure 4.txt 3
-persisted 4.txt 1
-purposes 4.txt 1
-present 4.txt 3
-prefer 4.txt 2
-permit 4.txt 1
-paces 4.txt 1
-pointed 4.txt 3
-pursued 4.txt 2
-parched 4.txt 1
-purpose 4.txt 1
-particular 4.txt 1
-pricked 4.txt 1
-pieces 4.txt 2
-perch 4.txt 1
-passed 4.txt 9
-pardoned 4.txt 1
-pulled 4.txt 2
-pursue 4.txt 1
-pool 4.txt 2
-plumes 4.txt 2
-plucked 4.txt 1
-pecked 4.txt 1
-peacocks 4.txt 3
-pity 4.txt 3
-pray 4.txt 3
-palm 4.txt 1
-pate 4.txt 1
-passing 4.txt 4
-perched 4.txt 1
-panic 4.txt 1
-persecuted 4.txt 1
-poked 4.txt 1
-place 4.txt 10
-petition 4.txt 3
-proper 4.txt 3
-paid 4.txt 1
-pick 4.txt 3
-picking 4.txt 1
-prove 4.txt 2
-plight 4.txt 2
-pass 4.txt 3
-pardon 4.txt 2
-placed 4.txt 3
-pitchforks 4.txt 1
-putting 4.txt 3
-prancing 4.txt 2
-pocket 4.txt 1
-pay 4.txt 2
-point 4.txt 4
-polite 4.txt 1
-punish 4.txt 3
-perhaps 4.txt 1
-pursuing 4.txt 1
-promised 4.txt 2
-put 4.txt 23
-pain 4.txt 3
-paw 4.txt 5
-part 4.txt 4
-pronounced 4.txt 1
-parts 4.txt 1
-plank 4.txt 1
-peace 4.txt 4
-piece 4.txt 8
-poor 4.txt 6
-precious 4.txt 2
-pearls 4.txt 1
-peck 4.txt 1
-prize 4.txt 2
-prisoner 4.txt 2
-pail 4.txt 4
-pitcher 4.txt 10
-pots 4.txt 3
-peacock 4.txt 5
-pearl 4.txt 3
-quietly 4.txt 1
-quarrel 4.txt 1
-quench 4.txt 2
-quiet 4.txt 2
-quaking 4.txt 1
-quite 4.txt 4
-queen 4.txt 1
-quarter 4.txt 3
-question 4.txt 2
-quoth 4.txt 5
-remember 4.txt 1
-royal 4.txt 1
-remain 4.txt 1
-respects 4.txt 1
-recover 4.txt 1
-removed 4.txt 1
-responsibility 4.txt 1
-regretted 4.txt 1
-ram 4.txt 3
-repel 4.txt 1
-race 4.txt 4
-remedies 4.txt 1
-retire 4.txt 1
-ribbon 4.txt 1
-rowed 4.txt 1
-recommended 4.txt 1
-release 4.txt 1
-robber 4.txt 1
-rides 4.txt 1
-ride 4.txt 1
-retired 4.txt 1
-regarded 4.txt 1
-road 4.txt 3
-reign 4.txt 1
-roosting 4.txt 1
-reaches 4.txt 1
-roaming 4.txt 1
-reach 4.txt 2
-rooms 4.txt 1
-room 4.txt 2
-rose 4.txt 1
-rock 4.txt 1
-rich 4.txt 3
-rushing 4.txt 1
-rebuking 4.txt 1
-river 4.txt 5
-remained 4.txt 1
-received 4.txt 1
-returning 4.txt 1
-reckon 4.txt 1
-roots 4.txt 2
-raise 4.txt 1
-recommend 4.txt 1
-represent 4.txt 1
-reason 4.txt 1
-relative 4.txt 1
-request 4.txt 1
-reins 4.txt 1
-ripening 4.txt 1
-resting 4.txt 1
-refuge 4.txt 1
-rest 4.txt 1
-receive 4.txt 3
-refused 4.txt 3
-regularly 4.txt 1
-retreat 4.txt 1
-rejoicings 4.txt 1
-recognised 4.txt 1
-roaring 4.txt 1
-rise 4.txt 2
-reply 4.txt 2
-return 4.txt 2
-raised 4.txt 5
-revile 4.txt 1
-rocks 4.txt 2
-repented 4.txt 1
-really 4.txt 1
-real 4.txt 2
-rule 4.txt 4
-ruin 4.txt 2
-repent 4.txt 2
-ropes 4.txt 1
-round 4.txt 9
-reynard 4.txt 1
-replied 4.txt 5
-run 4.txt 4
-remains 4.txt 1
-refreshment 4.txt 1
-residence 4.txt 2
-ready 4.txt 2
-rough 4.txt 1
-right 4.txt 6
-revenge 4.txt 3
-rage 4.txt 4
-reward 4.txt 3
-remove 4.txt 2
-relieve 4.txt 2
-ran 4.txt 2
-roared 4.txt 1
-reflected 4.txt 1
-running 4.txt 3
-rushed 4.txt 6
-runs 4.txt 1
-rather 4.txt 5
-rooted 4.txt 1
-reed 4.txt 5
-sniff 4.txt 1
-sort 4.txt 1
-sometimes 4.txt 1
-squeals 4.txt 1
-squealed 4.txt 1
-stage 4.txt 1
-squeak 4.txt 1
-s 4.txt 1
-spectators 4.txt 2
-squeaking 4.txt 1
-security 4.txt 1
-sighed 4.txt 1
-seat 4.txt 1
-spilt 4.txt 1
-shaw 4.txt 1
-sale 4.txt 1
-sell 4.txt 1
-shaft 4.txt 1
-soaring 4.txt 1
-stick 4.txt 2
-successful 4.txt 1
-strained 4.txt 2
-sons 4.txt 2
-simply 4.txt 2
-suggest 4.txt 1
-stating 4.txt 1
-sir 4.txt 1
-skeleton 4.txt 1
-start 4.txt 1
-speed 4.txt 2
-signal 4.txt 1
-sly 4.txt 1
-shot 4.txt 1
-sea 4.txt 2
-sit 4.txt 1
-stump 4.txt 1
-struggling 4.txt 1
-sucking 4.txt 1
-settled 4.txt 1
-struggle 4.txt 1
-shoulders 4.txt 1
-scoffing 4.txt 1
-shame 4.txt 1
-sprawl 4.txt 1
-sank 4.txt 2
-severity 4.txt 1
-shone 4.txt 1
-stop 4.txt 2
-songbird 4.txt 1
-sorrow 4.txt 1
-sing 4.txt 2
-shalt 4.txt 1
-selling 4.txt 1
-spoon 4.txt 1
-smoking 4.txt 1
-satyrs 4.txt 2
-save 4.txt 2
-separate 4.txt 1
-strong 4.txt 2
-suffer 4.txt 1
-stream 4.txt 1
-slouched 4.txt 1
-shook 4.txt 1
-sniffed 4.txt 2
-silly 4.txt 1
-sound 4.txt 2
-sand 4.txt 1
-stroll 4.txt 1
-soar 4.txt 1
-sharp 4.txt 1
-soared 4.txt 1
-shell 4.txt 3
-seizing 4.txt 1
-shut 4.txt 1
-stealing 4.txt 1
-speak 4.txt 2
-speaks 4.txt 1
-stirred 4.txt 1
-swept 4.txt 1
-stones 4.txt 2
-stocks 4.txt 1
-slumber 4.txt 1
-succeeded 4.txt 1
-strolled 4.txt 1
-shepherd 4.txt 2
-sheep 4.txt 9
-scampered 4.txt 1
-storm 4.txt 1
-sneered 4.txt 1
-safer 4.txt 1
-summer 4.txt 2
-stores 4.txt 1
-singing 4.txt 1
-stronger 4.txt 3
-strength 4.txt 2
-straight 4.txt 2
-stopped 4.txt 5
-spur 4.txt 1
-saddled 4.txt 1
-steady 4.txt 1
-saddle 4.txt 1
-sour 4.txt 1
-saying 4.txt 2
-success 4.txt 1
-strolling 4.txt 2
-sticking 4.txt 1
-stable 4.txt 2
-support 4.txt 1
-strike 4.txt 2
-starve 4.txt 1
-steadily 4.txt 1
-shop 4.txt 1
-sight 4.txt 2
-slight 4.txt 1
-slim 4.txt 1
-souls 4.txt 1
-sign 4.txt 1
-story 4.txt 1
-summoned 4.txt 4
-spectacle 4.txt 1
-sentenced 4.txt 1
-shortly 4.txt 6
-swollen 4.txt 1
-slave 4.txt 4
-selfdestruction 4.txt 1
-selfconceit 4.txt 1
-swelled 4.txt 3
-sitting 4.txt 2
-striding 4.txt 1
-strutted 4.txt 1
-substitute 4.txt 1
-storeroom 4.txt 1
-snout 4.txt 1
-seated 4.txt 1
-sorry 4.txt 3
-shallow 4.txt 1
-soup 4.txt 2
-seemed 4.txt 3
-summers 4.txt 3
-seized 4.txt 2
-sting 4.txt 1
-stroke 4.txt 2
-stooped 4.txt 1
-slowly 4.txt 2
-snow 4.txt 1
-someone 4.txt 1
-seem 4.txt 1
-state 4.txt 1
-scuttled 4.txt 2
-stampeding 4.txt 1
-say 4.txt 3
-summits 4.txt 1
-smoke 4.txt 1
-sent 4.txt 4
-suit 4.txt 1
-slightest 4.txt 1
-same 4.txt 5
-send 4.txt 2
-splashing 4.txt 1
-suited 4.txt 1
-swamp 4.txt 3
-swallows 4.txt 2
-seed 4.txt 2
-seeds 4.txt 2
-sowing 4.txt 2
-sad 4.txt 1
-search 4.txt 1
-shall 4.txt 10
-shoulder 4.txt 3
-sides 4.txt 1
-seeing 4.txt 6
-stroked 4.txt 1
-servants 4.txt 3
-sat 4.txt 3
-stables 4.txt 1
-safe 4.txt 5
-still 4.txt 6
-subjects 4.txt 1
-snapped 4.txt 1
-song 4.txt 2
-surpass 4.txt 1
-sure 4.txt 10
-settle 4.txt 1
-scamper 4.txt 1
-set 4.txt 5
-sooner 4.txt 3
-stood 4.txt 4
-show 4.txt 5
-such 4.txt 10
-satisfied 4.txt 1
-surely 4.txt 3
-severe 4.txt 1
-several 4.txt 2
-stinging 4.txt 2
-serpents 4.txt 1
-son 4.txt 8
-safety 4.txt 2
-showed 4.txt 2
-side 4.txt 8
-seeking 4.txt 1
-stuck 4.txt 1
-small 4.txt 4
-spoke 4.txt 4
-second 4.txt 2
-stand 4.txt 2
-skinned 4.txt 1
-spoil 4.txt 2
-surprised 4.txt 2
-substance 4.txt 1
-seen 4.txt 4
-snap 4.txt 1
-so 4.txt 72
-saw 4.txt 19
-serve 4.txt 1
-she 4.txt 38
-snarled 4.txt 1
-six 4.txt 1
-said 4.txt 136
-seize 4.txt 1
-supper 4.txt 1
-see 4.txt 28
-should 4.txt 13
-spring 4.txt 1
-single 4.txt 2
-some 4.txt 27
-soon 4.txt 49
-straw 4.txt 5
-shinning 4.txt 1
-something 4.txt 5
-suddenly 4.txt 6
-strutting 4.txt 1
-sun 4.txt 7
-satyr 4.txt 7
-sticks 4.txt 7
-skin 4.txt 6
-shepherds 4.txt 2
-stork 4.txt 9
-sheeps 4.txt 3
-statue 4.txt 4
-swallow 4.txt 7
-stag 4.txt 8
-sick 4.txt 4
-serpent 4.txt 15
-share 4.txt 8
-shadow 4.txt 5
-tomorrow 4.txt 1
-trumpet 4.txt 1
-trappings 4.txt 1
-tossed 4.txt 1
-toss 4.txt 1
-toils 4.txt 1
-track 4.txt 1
-testament 4.txt 1
-tame 4.txt 1
-trimmed 4.txt 1
-tender 4.txt 1
-task 4.txt 1
-tired 4.txt 1
-therefore 4.txt 1
-treacherous 4.txt 1
-thank 4.txt 1
-treasures 4.txt 1
-teach 4.txt 1
-trudge 4.txt 1
-tut 4.txt 1
-traveller 4.txt 5
-tidings 4.txt 1
-truce 4.txt 1
-toast 4.txt 1
-thou 4.txt 2
-thee 4.txt 4
-throughout 4.txt 1
-thoughts 4.txt 1
-totally 4.txt 1
-tails 4.txt 2
-tide 4.txt 1
-travellers 4.txt 1
-travelling 4.txt 2
-twisting 4.txt 1
-talons 4.txt 1
-trouble 4.txt 1
-throw 4.txt 2
-therefrom 4.txt 1
-train 4.txt 1
-theft 4.txt 1
-truth 4.txt 1
-twice 4.txt 2
-trick 4.txt 3
-tended 4.txt 1
-tricks 4.txt 1
-tore 4.txt 2
-think 4.txt 4
-toiling 4.txt 1
-toil 4.txt 3
-tearing 4.txt 1
-third 4.txt 2
-terribly 4.txt 1
-theirs 4.txt 1
-tempting 4.txt 1
-three 4.txt 2
-thirst 4.txt 3
-trained 4.txt 1
-through 4.txt 3
-tips 4.txt 1
-truss 4.txt 2
-thus 4.txt 2
-torn 4.txt 1
-thrown 4.txt 2
-thorn 4.txt 2
-taller 4.txt 1
-tush 4.txt 2
-theatre 4.txt 1
-table 4.txt 1
-terms 4.txt 1
-tormented 4.txt 1
-tramping 4.txt 1
-top 4.txt 1
-truly 4.txt 1
-troop 4.txt 2
-tiny 4.txt 1
-teeny 4.txt 1
-thing 4.txt 9
-tumbling 4.txt 1
-trees 4.txt 5
-too 4.txt 9
-taking 4.txt 3
-thereupon 4.txt 1
-touch 4.txt 3
-towards 4.txt 10
-threw 4.txt 5
-troubling 4.txt 1
-tell 4.txt 4
-their 4.txt 32
-tied 4.txt 4
-trap 4.txt 4
-tickled 4.txt 1
-these 4.txt 6
-taught 4.txt 1
-turning 4.txt 4
-tusks 4.txt 1
-themselves 4.txt 7
-trust 4.txt 3
-today 4.txt 4
-trying 4.txt 1
-turned 4.txt 9
-trod 4.txt 1
-together 4.txt 11
-teeth 4.txt 4
-told 4.txt 6
-try 4.txt 2
-take 4.txt 15
-tried 4.txt 11
-terrible 4.txt 4
-throat 4.txt 3
-took 4.txt 25
-till 4.txt 11
-they 4.txt 75
-thinking 4.txt 2
-tyrant 4.txt 1
-this 4.txt 43
-there 4.txt 23
-then 4.txt 43
-thought 4.txt 15
-theres 4.txt 1
-time 4.txt 28
-them 4.txt 48
-those 4.txt 4
-things 4.txt 7
-than 4.txt 21
-treasure 4.txt 1
-that 4.txt 150
-to 4.txt 383
-turn 4.txt 6
-thats 4.txt 3
-taken 4.txt 5
-trumpeter 4.txt 3
-tortoise 4.txt 15
-tail 4.txt 15
-two 4.txt 30
-thief 4.txt 3
-tree 4.txt 14
-town 4.txt 11
-the 4.txt 1072
-utter 4.txt 1
-union 4.txt 1
-untie 4.txt 1
-until 4.txt 1
-undisturbed 4.txt 1
-unused 4.txt 1
-universal 4.txt 2
-united 4.txt 1
-ungracefully 4.txt 1
-unlucky 4.txt 2
-upright 4.txt 1
-unusual 4.txt 1
-unable 4.txt 3
-useless 4.txt 3
-useful 4.txt 1
-underneath 4.txt 1
-use 4.txt 3
-under 4.txt 5
-used 4.txt 15
-us 4.txt 11
-unto 4.txt 3
-understand 4.txt 1
-upon 4.txt 36
-up 4.txt 81
-various 4.txt 1
-venus 4.txt 4
-vehemence 4.txt 1
-venture 4.txt 2
-vices 4.txt 1
-villagers 4.txt 3
-village 4.txt 3
-vigilance 4.txt 1
-vine 4.txt 1
-victim 4.txt 1
-venturing 4.txt 1
-visiting 4.txt 1
-vile 4.txt 1
-violent 4.txt 1
-ventured 4.txt 3
-very 4.txt 17
-voice 4.txt 6
-visit 4.txt 4
-vengeance 4.txt 1
-wine 4.txt 2
-weapon 4.txt 1
-wrong 4.txt 1
-weight 4.txt 1
-wait 4.txt 1
-weddingfeast 4.txt 1
-wedding 4.txt 1
-wont 4.txt 1
-wounded 4.txt 2
-whizz 4.txt 1
-wit 4.txt 1
-woe 4.txt 1
-watch 4.txt 1
-waiting 4.txt 1
-wildest 4.txt 1
-worst 4.txt 1
-wishes 4.txt 2
-woodcutter 4.txt 1
-wouldst 4.txt 1
-wins 4.txt 1
-winningpost 4.txt 1
-wealth 4.txt 1
-women 4.txt 2
-wheel 4.txt 1
-whip 4.txt 1
-wheels 4.txt 2
-wrap 4.txt 1
-whom 4.txt 3
-warms 4.txt 1
-winters 4.txt 1
-whatever 4.txt 1
-whichever 4.txt 2
-weak 4.txt 1
-whether 4.txt 2
-whispered 4.txt 1
-walking 4.txt 3
-wagging 4.txt 1
-window 4.txt 3
-white 4.txt 1
-wife 4.txt 5
-whisper 4.txt 1
-wise 4.txt 1
-worry 4.txt 1
-worship 4.txt 1
-whenever 4.txt 3
-wearing 4.txt 1
-whose 4.txt 2
-ways 4.txt 1
-winter 4.txt 3
-worn 4.txt 1
-wrath 4.txt 1
-wanderings 4.txt 1
-whistling 4.txt 1
-worthy 4.txt 1
-wish 4.txt 5
-wished 4.txt 2
-whereupon 4.txt 1
-whole 4.txt 2
-wandering 4.txt 1
-whites 4.txt 1
-walk 4.txt 3
-worth 4.txt 3
-wet 4.txt 1
-wiser 4.txt 1
-wicked 4.txt 1
-watched 4.txt 3
-warm 4.txt 1
-wintry 4.txt 1
-worse 4.txt 1
-wild 4.txt 1
-waited 4.txt 8
-work 4.txt 14
-words 4.txt 3
-where 4.txt 9
-waggon 4.txt 1
-wakened 4.txt 1
-while 4.txt 12
-who 4.txt 33
-wanted 4.txt 4
-want 4.txt 4
-wonder 4.txt 1
-week 4.txt 2
-welcome 4.txt 1
-we 4.txt 21
-were 4.txt 41
-wolfs 4.txt 2
-wide 4.txt 1
-walked 4.txt 3
-went 4.txt 29
-way 4.txt 18
-will 4.txt 46
-warra 4.txt 5
-why 4.txt 13
-well 4.txt 18
-which 4.txt 30
-water 4.txt 11
-would 4.txt 20
-what 4.txt 41
-when 4.txt 54
-was 4.txt 133
-winejar 4.txt 3
-woman 4.txt 3
-waggoner 4.txt 4
-wind 4.txt 6
-with 4.txt 85
-without 4.txt 6
-wives 4.txt 3
-wooden 4.txt 4
-woodman 4.txt 4
-wood 4.txt 6
-wolf 4.txt 39
-yesterday 4.txt 1
-youve 4.txt 1
-yet 4.txt 2
-yoursu 4.txt 1
-youngster 4.txt 1
-yellow 4.txt 1
-yield 4.txt 2
-yourself 4.txt 7
-yes 4.txt 3
-your 4.txt 41
-year 4.txt 1
-you 4.txt 134
-yard 4.txt 2
-young 4.txt 17
+squeak 1 4.txt 1
+weapon 1 4.txt 1
+pounce 1 4.txt 1
+feathered 1 4.txt 1
+whizz 1 4.txt 1
+strained 1 4.txt 2
+trimmed 1 4.txt 1
+removed 1 4.txt 1
+accept 1 4.txt 1
+yet 1 4.txt 2
+fate 1 4.txt 1
+hulking 1 4.txt 1
+passersby 1 4.txt 1
+load 1 4.txt 1
+wrap 1 4.txt 1
+cunning 1 4.txt 1
+tidings 1 4.txt 1
+high 1 4.txt 2
+blowing 1 4.txt 2
+cell 1 4.txt 1
+winters 1 4.txt 1
+bitter 1 4.txt 1
+joy 1 4.txt 2
+travellers 1 4.txt 1
+clothes 1 4.txt 1
+because 1 4.txt 2
+brutal 1 4.txt 1
+act 1 4.txt 1
+believed 1 4.txt 1
+filled 1 4.txt 1
+worship 1 4.txt 1
+awakened 1 4.txt 1
+belonged 1 4.txt 1
+getting 1 4.txt 3
+tore 1 4.txt 2
+chat 1 4.txt 1
+nest 1 4.txt 2
+ear 1 4.txt 4
+bearing 1 4.txt 1
+stronger 1 4.txt 3
+attractions 1 4.txt 1
+steady 1 4.txt 1
+discussion 1 4.txt 1
+floor 1 4.txt 1
+shop 1 4.txt 1
+roaring 1 4.txt 1
+pursue 1 4.txt 1
+bigger 1 4.txt 3
+asked 1 4.txt 12
+broad 1 4.txt 1
+pool 1 4.txt 2
+observed 1 4.txt 1
+table 1 4.txt 1
+dine 1 4.txt 1
+summers 1 4.txt 3
+curse 1 4.txt 1
+appearance 1 4.txt 2
+gap 1 4.txt 2
+rocks 1 4.txt 2
+too 1 4.txt 9
+sent 1 4.txt 4
+nets 1 4.txt 2
+sad 1 4.txt 1
+loose 1 4.txt 6
+happy 1 4.txt 2
+hear 1 4.txt 3
+journey 1 4.txt 1
+want 1 4.txt 4
+surely 1 4.txt 3
+forgive 1 4.txt 2
+severe 1 4.txt 1
+several 1 4.txt 2
+serpents 1 4.txt 1
+showed 1 4.txt 2
+low 1 4.txt 2
+spoke 1 4.txt 4
+humph 1 4.txt 1
+life 1 4.txt 6
+they 1 4.txt 75
+into 1 4.txt 36
+are 1 4.txt 18
+donkey 1 4.txt 10
+woman 1 4.txt 3
+waggoner 1 4.txt 4
+asss 1 4.txt 2
+oxen 1 4.txt 3
+hare 1 4.txt 11
+doe 1 4.txt 3
+cat 1 4.txt 13
+reed 1 4.txt 5
+kid 1 4.txt 3
+other 1 4.txt 20
+file 1 4.txt 3
+cock 1 4.txt 9
+difficulties 1 4.txt 1
+jealous 1 4.txt 1
+soaring 1 4.txt 1
+waiting 1 4.txt 1
+possibly 1 4.txt 1
+quietly 1 4.txt 1
+applause 1 4.txt 1
+retire 1 4.txt 1
+escape 1 4.txt 3
+sea 1 4.txt 2
+dispense 1 4.txt 1
+garden 1 4.txt 1
+drowned 1 4.txt 1
+trudge 1 4.txt 1
+fools 1 4.txt 2
+driving 1 4.txt 2
+whom 1 4.txt 3
+truce 1 4.txt 1
+roosting 1 4.txt 1
+far 1 4.txt 3
+blind 1 4.txt 2
+neighbour 1 4.txt 5
+attacked 1 4.txt 1
+suffer 1 4.txt 1
+pot 1 4.txt 1
+precept 1 4.txt 1
+comb 1 4.txt 1
+mean 1 4.txt 1
+louder 1 4.txt 1
+forth 1 4.txt 2
+generally 1 4.txt 1
+everything 1 4.txt 1
+saying 1 4.txt 2
+pointed 1 4.txt 3
+unusual 1 4.txt 1
+consented 1 4.txt 1
+alas 1 4.txt 3
+noticing 1 4.txt 1
+nearly 1 4.txt 2
+slight 1 4.txt 1
+wish 1 4.txt 5
+whereupon 1 4.txt 1
+apologise 1 4.txt 2
+invited 1 4.txt 1
+hurried 1 4.txt 1
+top 1 4.txt 1
+earthquake 1 4.txt 1
+trees 1 4.txt 5
+touch 1 4.txt 3
+lives 1 4.txt 1
+nobody 1 4.txt 4
+bird 1 4.txt 5
+seed 1 4.txt 2
+cowards 1 4.txt 1
+danger 1 4.txt 4
+beans 1 4.txt 2
+perhaps 1 4.txt 1
+honey 1 4.txt 1
+kindly 1 4.txt 2
+neck 1 4.txt 4
+divided 1 4.txt 3
+grasping 1 4.txt 1
+crossed 1 4.txt 1
+across 1 4.txt 1
+lying 1 4.txt 6
+all 1 4.txt 57
+rushed 1 4.txt 6
+muddy 1 4.txt 2
+said 1 4.txt 136
+water 1 4.txt 11
+find 1 4.txt 4
+theres 1 4.txt 1
+looking 1 4.txt 9
+those 1 4.txt 4
+i 1 4.txt 115
+hercules 1 4.txt 6
+crow 1 4.txt 10
+crane 1 4.txt 5
+aesops 1 4.txt 1
+drunk 1 4.txt 1
+fair 1 4.txt 1
+plea 1 4.txt 1
+final 1 4.txt 1
+harness 1 4.txt 1
+performed 1 4.txt 1
+wit 1 4.txt 1
+extracted 1 4.txt 1
+enrage 1 4.txt 1
+responsibility 1 4.txt 1
+interfere 1 4.txt 1
+important 1 4.txt 1
+therefore 1 4.txt 1
+consists 1 4.txt 1
+struggling 1 4.txt 1
+appetite 1 4.txt 1
+sucking 1 4.txt 1
+treasures 1 4.txt 1
+followed 1 4.txt 1
+cloak 1 4.txt 3
+friendship 1 4.txt 1
+pure 1 4.txt 1
+thoughts 1 4.txt 1
+porridge 1 4.txt 2
+cold 1 4.txt 2
+satyrs 1 4.txt 2
+companion 1 4.txt 1
+stream 1 4.txt 1
+shook 1 4.txt 1
+mistaken 1 4.txt 1
+calling 1 4.txt 1
+dark 1 4.txt 1
+bids 1 4.txt 1
+returning 1 4.txt 1
+owing 1 4.txt 1
+miss 1 4.txt 1
+contented 1 4.txt 1
+relative 1 4.txt 1
+jump 1 4.txt 2
+ripening 1 4.txt 1
+strolling 1 4.txt 2
+sticking 1 4.txt 1
+free 1 4.txt 2
+foolish 1 4.txt 1
+purpose 1 4.txt 1
+insensible 1 4.txt 1
+victim 1 4.txt 1
+latter 1 4.txt 1
+fallen 1 4.txt 2
+actors 1 4.txt 1
+appointed 1 4.txt 1
+pray 1 4.txt 3
+acks 1 4.txt 1
+immediately 1 4.txt 3
+stampeding 1 4.txt 1
+outcry 1 4.txt 2
+appeared 1 4.txt 4
+laughed 1 4.txt 4
+over 1 4.txt 13
+jesting 1 4.txt 1
+laughter 1 4.txt 2
+servants 1 4.txt 3
+carried 1 4.txt 1
+growled 1 4.txt 1
+feeling 1 4.txt 1
+house 1 4.txt 4
+fine 1 4.txt 10
+safety 1 4.txt 2
+lie 1 4.txt 1
+animal 1 4.txt 2
+thinking 1 4.txt 2
+own 1 4.txt 7
+now 1 4.txt 20
+eat 1 4.txt 4
+ate 1 4.txt 2
+six 1 4.txt 1
+master 1 4.txt 14
+me 1 4.txt 39
+thats 1 4.txt 3
+labourer 1 4.txt 6
+four 1 4.txt 5
+with 1 4.txt 85
+god 1 4.txt 3
+wooden 1 4.txt 4
+grasshopper 1 4.txt 7
+mountains 1 4.txt 4
+juno 1 4.txt 4
+dog 1 4.txt 21
+hissing 1 4.txt 1
+untie 1 4.txt 1
+parting 1 4.txt 1
+worst 1 4.txt 1
+appointment 1 4.txt 1
+advantage 1 4.txt 1
+foxes 1 4.txt 3
+settled 1 4.txt 1
+news 1 4.txt 4
+nightingales 1 4.txt 2
+reaches 1 4.txt 1
+halfdead 1 4.txt 1
+room 1 4.txt 2
+avarice 1 4.txt 1
+whichever 1 4.txt 2
+comrade 1 4.txt 1
+muzzle 1 4.txt 1
+disguise 1 4.txt 1
+forward 1 4.txt 3
+enjoy 1 4.txt 1
+muttering 1 4.txt 1
+hearty 1 4.txt 2
+boys 1 4.txt 3
+fat 1 4.txt 1
+rejoicings 1 4.txt 1
+friendly 1 4.txt 2
+behaviour 1 4.txt 1
+lick 1 4.txt 2
+sorry 1 4.txt 3
+bill 1 4.txt 1
+seemed 1 4.txt 3
+injure 1 4.txt 1
+sting 1 4.txt 1
+passing 1 4.txt 4
+perched 1 4.txt 1
+panic 1 4.txt 1
+teeny 1 4.txt 1
+hopping 1 4.txt 2
+taught 1 4.txt 1
+commenced 1 4.txt 2
+gave 1 4.txt 6
+exchange 1 4.txt 1
+caw 1 4.txt 1
+reynard 1 4.txt 1
+run 1 4.txt 4
+mastiffs 1 4.txt 1
+do 1 4.txt 41
+polite 1 4.txt 1
+offered 1 4.txt 1
+rough 1 4.txt 1
+off 1 4.txt 25
+took 1 4.txt 25
+fell 1 4.txt 8
+serve 1 4.txt 1
+before 1 4.txt 16
+excuse 1 4.txt 2
+things 1 4.txt 7
+peck 1 4.txt 1
+rooted 1 4.txt 1
+crabs 1 4.txt 3
+woodman 1 4.txt 4
+lions 1 4.txt 9
+spectators 1 4.txt 2
+imitating 1 4.txt 1
+security 1 4.txt 1
+sighed 1 4.txt 1
+duly 1 4.txt 1
+chip 1 4.txt 1
+pierced 1 4.txt 1
+wounded 1 4.txt 2
+recover 1 4.txt 1
+regretted 1 4.txt 1
+apply 1 4.txt 1
+assistance 1 4.txt 1
+plodded 1 4.txt 2
+darted 1 4.txt 1
+shot 1 4.txt 1
+women 1 4.txt 2
+ride 1 4.txt 1
+hour 1 4.txt 1
+believe 1 4.txt 1
+earthenware 1 4.txt 2
+elder 1 4.txt 1
+tended 1 4.txt 1
+bite 1 4.txt 1
+whose 1 4.txt 2
+distributing 1 4.txt 1
+toiling 1 4.txt 1
+air 1 4.txt 4
+paces 1 4.txt 1
+rest 1 4.txt 1
+decided 1 4.txt 1
+hair 1 4.txt 5
+housedog 1 4.txt 1
+destroying 1 4.txt 1
+wrath 1 4.txt 1
+armourers 1 4.txt 1
+has 1 4.txt 5
+underneath 1 4.txt 1
+isnt 1 4.txt 1
+here 1 4.txt 6
+someone 1 4.txt 1
+truly 1 4.txt 1
+gathered 1 4.txt 1
+gobbling 1 4.txt 1
+real 1 4.txt 2
+caring 1 4.txt 1
+suited 1 4.txt 1
+ruin 1 4.txt 2
+repent 1 4.txt 2
+feet 1 4.txt 5
+boar 1 4.txt 1
+grand 1 4.txt 2
+our 1 4.txt 11
+come 1 4.txt 28
+vengeance 1 4.txt 1
+remove 1 4.txt 2
+bone 1 4.txt 3
+judgment 1 4.txt 1
+question 1 4.txt 2
+ahunting 1 4.txt 1
+went 1 4.txt 29
+as 1 4.txt 80
+gasped 1 4.txt 1
+have 1 4.txt 42
+shinning 1 4.txt 1
+sun 1 4.txt 7
+little 1 4.txt 27
+shepherds 1 4.txt 2
+man 1 4.txt 48
+cling 1 4.txt 1
+trumpet 1 4.txt 1
+nature 1 4.txt 3
+hat 1 4.txt 1
+sale 1 4.txt 1
+royal 1 4.txt 1
+proposing 1 4.txt 1
+mortal 1 4.txt 1
+deeper 1 4.txt 1
+kindness 1 4.txt 1
+captives 1 4.txt 1
+pebbles 1 4.txt 1
+grief 1 4.txt 1
+eaten 1 4.txt 1
+whether 1 4.txt 2
+bears 1 4.txt 1
+twisting 1 4.txt 1
+accustom 1 4.txt 1
+hath 1 4.txt 1
+condemned 1 4.txt 1
+daring 1 4.txt 1
+actually 1 4.txt 1
+company 1 4.txt 2
+remained 1 4.txt 1
+flayed 1 4.txt 1
+contains 1 4.txt 1
+breeds 1 4.txt 1
+next 1 4.txt 6
+theirs 1 4.txt 1
+truss 1 4.txt 2
+condition 1 4.txt 2
+steadily 1 4.txt 1
+retreat 1 4.txt 1
+story 1 4.txt 1
+fawned 1 4.txt 1
+jar 1 4.txt 3
+yourself 1 4.txt 7
+nothing 1 4.txt 13
+greatest 1 4.txt 2
+keep 1 4.txt 8
+constitution 1 4.txt 1
+grow 1 4.txt 2
+lap 1 4.txt 4
+orders 1 4.txt 1
+ground 1 4.txt 5
+surpass 1 4.txt 1
+sure 1 4.txt 10
+wonder 1 4.txt 1
+know 1 4.txt 6
+caused 1 4.txt 3
+ought 1 4.txt 1
+side 1 4.txt 8
+take 1 4.txt 15
+killed 1 4.txt 3
+like 1 4.txt 15
+spoil 1 4.txt 2
+surprised 1 4.txt 2
+carrying 1 4.txt 4
+happened 1 4.txt 10
+see 1 4.txt 28
+should 1 4.txt 13
+at 1 4.txt 76
+soon 1 4.txt 49
+once 1 4.txt 24
+of 1 4.txt 211
+belling 1 4.txt 2
+tortoise 1 4.txt 15
+mother 1 4.txt 10
+instruments 1 4.txt 1
+squeaking 1 4.txt 1
+panniers 1 4.txt 1
+behaves 1 4.txt 1
+dimity 1 4.txt 1
+brown 1 4.txt 1
+money 1 4.txt 2
+prey 1 4.txt 1
+bade 1 4.txt 1
+wouldst 1 4.txt 1
+sly 1 4.txt 1
+boat 1 4.txt 1
+jeer 1 4.txt 1
+shame 1 4.txt 1
+lazy 1 4.txt 2
+harder 1 4.txt 1
+road 1 4.txt 3
+thou 1 4.txt 2
+thee 1 4.txt 4
+smoking 1 4.txt 1
+tide 1 4.txt 1
+dust 1 4.txt 1
+sand 1 4.txt 1
+answer 1 4.txt 3
+rich 1 4.txt 3
+pleased 1 4.txt 2
+river 1 4.txt 5
+deceiving 1 4.txt 2
+tricks 1 4.txt 1
+general 1 4.txt 4
+guide 1 4.txt 3
+tips 1 4.txt 1
+quiet 1 4.txt 2
+almost 1 4.txt 2
+branches 1 4.txt 2
+hands 1 4.txt 5
+im 1 4.txt 1
+myself 1 4.txt 2
+venturing 1 4.txt 1
+seated 1 4.txt 1
+slowly 1 4.txt 2
+fire 1 4.txt 1
+near 1 4.txt 16
+summits 1 4.txt 1
+same 1 4.txt 5
+swamp 1 4.txt 3
+gnawed 1 4.txt 1
+search 1 4.txt 1
+tied 1 4.txt 4
+attempted 1 4.txt 2
+day 1 4.txt 28
+quite 1 4.txt 4
+still 1 4.txt 6
+helpless 1 4.txt 2
+round 1 4.txt 9
+breath 1 4.txt 5
+trust 1 4.txt 3
+mistress 1 4.txt 1
+moment 1 4.txt 6
+barking 1 4.txt 1
+late 1 4.txt 2
+done 1 4.txt 4
+forgiven 1 4.txt 1
+axe 1 4.txt 4
+him 1 4.txt 87
+go 1 4.txt 12
+labours 1 4.txt 1
+first 1 4.txt 6
+substance 1 4.txt 1
+beware 1 4.txt 2
+reflected 1 4.txt 1
+poor 1 4.txt 6
+why 1 4.txt 13
+out 1 4.txt 59
+eggs 1 4.txt 5
+pail 1 4.txt 4
+gold 1 4.txt 8
+memories 1 4.txt 1
+possible 1 4.txt 1
+count 1 4.txt 1
+union 1 4.txt 1
+meaning 1 4.txt 1
+efforts 1 4.txt 1
+tame 1 4.txt 1
+affection 1 4.txt 1
+applied 1 4.txt 2
+gratified 1 4.txt 1
+wins 1 4.txt 1
+conversation 1 4.txt 1
+fill 1 4.txt 1
+hadnt 1 4.txt 1
+severity 1 4.txt 1
+forever 1 4.txt 1
+became 1 4.txt 1
+punishment 1 4.txt 1
+alone 1 4.txt 1
+floated 1 4.txt 1
+sniffed 1 4.txt 2
+flat 1 4.txt 1
+sound 1 4.txt 2
+brayed 1 4.txt 1
+enemys 1 4.txt 2
+talons 1 4.txt 1
+seizing 1 4.txt 1
+consequence 1 4.txt 1
+flock 1 4.txt 1
+worry 1 4.txt 1
+villagers 1 4.txt 3
+making 1 4.txt 1
+received 1 4.txt 1
+nap 1 4.txt 4
+force 1 4.txt 1
+continued 1 4.txt 2
+pleasure 1 4.txt 3
+permit 1 4.txt 1
+ask 1 4.txt 1
+success 1 4.txt 1
+hounds 1 4.txt 9
+unable 1 4.txt 3
+nimble 1 4.txt 1
+approached 1 4.txt 3
+crown 1 4.txt 1
+antlers 1 4.txt 2
+beast 1 4.txt 2
+collected 1 4.txt 2
+finding 1 4.txt 3
+oh 1 4.txt 4
+deserves 1 4.txt 1
+wicked 1 4.txt 1
+fangs 1 4.txt 2
+honest 1 4.txt 1
+splashing 1 4.txt 1
+pick 1 4.txt 3
+ropes 1 4.txt 1
+o 1 4.txt 2
+wakened 1 4.txt 1
+hold 1 4.txt 3
+always 1 4.txt 7
+settle 1 4.txt 1
+stood 1 4.txt 4
+show 1 4.txt 5
+course 1 4.txt 5
+cousin 1 4.txt 5
+loss 1 4.txt 2
+bit 1 4.txt 5
+gratitude 1 4.txt 3
+put 1 4.txt 23
+front 1 4.txt 2
+meat 1 4.txt 6
+lambikin 1 4.txt 1
+lower 1 4.txt 1
+barleycorn 1 4.txt 1
+ho 1 4.txt 2
+her 1 4.txt 49
+sticks 1 4.txt 7
+old 1 4.txt 22
+lapdog 1 4.txt 6
+in 1 4.txt 146
+mouse 1 4.txt 23
+pig 1 4.txt 3
+minute 1 4.txt 1
+chickens 1 4.txt 1
+tossed 1 4.txt 1
+destruction 1 4.txt 1
+lifeblood 1 4.txt 1
+hoofmarks 1 4.txt 1
+vehemence 1 4.txt 1
+marriage 1 4.txt 1
+ram 1 4.txt 3
+stating 1 4.txt 1
+hoped 1 4.txt 2
+faggot 1 4.txt 2
+fixed 1 4.txt 1
+outwit 1 4.txt 1
+assembled 1 4.txt 1
+misfortune 1 4.txt 2
+bolder 1 4.txt 1
+blood 1 4.txt 1
+hole 1 4.txt 2
+dug 1 4.txt 1
+overloading 1 4.txt 1
+effects 1 4.txt 1
+decide 1 4.txt 1
+sorrow 1 4.txt 1
+warms 1 4.txt 1
+envy 1 4.txt 1
+weak 1 4.txt 1
+deserts 1 4.txt 1
+proud 1 4.txt 1
+galloped 1 4.txt 1
+chanced 1 4.txt 1
+morning 1 4.txt 4
+liar 1 4.txt 1
+idol 1 4.txt 2
+slumber 1 4.txt 1
+obscurity 1 4.txt 1
+ceremony 1 4.txt 1
+morsel 1 4.txt 3
+bunch 1 4.txt 2
+strike 1 4.txt 2
+arrange 1 4.txt 2
+get 1 4.txt 13
+begged 1 4.txt 2
+harm 1 4.txt 3
+wanderings 1 4.txt 1
+noble 1 4.txt 4
+emperor 1 4.txt 2
+dish 1 4.txt 2
+shallow 1 4.txt 1
+wiser 1 4.txt 1
+raised 1 4.txt 5
+watched 1 4.txt 3
+dead 1 4.txt 3
+tramping 1 4.txt 1
+brave 1 4.txt 1
+attack 1 4.txt 2
+drown 1 4.txt 1
+tumbling 1 4.txt 1
+threw 1 4.txt 5
+mighty 1 4.txt 1
+cord 1 4.txt 1
+swallows 1 4.txt 2
+desired 1 4.txt 4
+tickled 1 4.txt 1
+horns 1 4.txt 7
+point 1 4.txt 4
+lifted 1 4.txt 3
+eating 1 4.txt 3
+heartily 1 4.txt 1
+friend 1 4.txt 12
+lair 1 4.txt 1
+food 1 4.txt 11
+turned 1 4.txt 9
+together 1 4.txt 11
+anything 1 4.txt 2
+induce 1 4.txt 1
+pain 1 4.txt 3
+throat 1 4.txt 3
+stuck 1 4.txt 1
+walked 1 4.txt 3
+carcass 1 4.txt 1
+parts 1 4.txt 1
+mind 1 4.txt 1
+cross 1 4.txt 1
+she 1 4.txt 38
+only 1 4.txt 22
+upon 1 4.txt 36
+prize 1 4.txt 2
+men 1 4.txt 11
+lost 1 4.txt 5
+milkmaid 1 4.txt 3
+without 1 4.txt 6
+two 1 4.txt 30
+thief 1 4.txt 3
+country 1 4.txt 10
+porker 1 4.txt 1
+laugh 1 4.txt 1
+fowls 1 4.txt 1
+toils 1 4.txt 1
+easier 1 4.txt 1
+sons 1 4.txt 2
+wishes 1 4.txt 2
+hopeless 1 4.txt 1
+bent 1 4.txt 1
+speed 1 4.txt 2
+release 1 4.txt 1
+gone 1 4.txt 1
+hurt 1 4.txt 1
+toast 1 4.txt 1
+ill 1 4.txt 4
+aloof 1 4.txt 1
+whispered 1 4.txt 1
+owner 1 4.txt 1
+delight 1 4.txt 2
+fooled 1 4.txt 1
+lonely 1 4.txt 1
+cosily 1 4.txt 1
+enjoying 1 4.txt 1
+difficulty 1 4.txt 2
+safer 1 4.txt 1
+grain 1 4.txt 1
+familiarity 1 4.txt 1
+follow 1 4.txt 3
+most 1 4.txt 1
+bounded 1 4.txt 1
+worthy 1 4.txt 1
+pieces 1 4.txt 2
+torn 1 4.txt 1
+afterwards 1 4.txt 6
+shortly 1 4.txt 6
+thorn 1 4.txt 2
+forest 1 4.txt 6
+peacocks 1 4.txt 3
+closely 1 4.txt 2
+good 1 4.txt 11
+terms 1 4.txt 1
+children 1 4.txt 1
+wintry 1 4.txt 1
+work 1 4.txt 14
+else 1 4.txt 2
+doing 1 4.txt 4
+alive 1 4.txt 1
+help 1 4.txt 11
+joke 1 4.txt 3
+danced 1 4.txt 1
+face 1 4.txt 6
+heels 1 4.txt 2
+gored 1 4.txt 1
+subjects 1 4.txt 1
+huge 1 4.txt 6
+brought 1 4.txt 3
+stinging 1 4.txt 2
+pursuing 1 4.txt 1
+content 1 4.txt 3
+promised 1 4.txt 2
+wolfs 1 4.txt 2
+wide 1 4.txt 1
+every 1 4.txt 10
+ran 1 4.txt 2
+growl 1 4.txt 2
+mine 1 4.txt 1
+along 1 4.txt 9
+home 1 4.txt 10
+bad 1 4.txt 4
+cause 1 4.txt 2
+beginning 1 4.txt 1
+spring 1 4.txt 1
+would 1 4.txt 20
+golden 1 4.txt 2
+arrow 1 4.txt 6
+king 1 4.txt 14
+the 1 4.txt 1072
+finished 1 4.txt 1
+fight 1 4.txt 3
+proceed 1 4.txt 1
+wedding 1 4.txt 1
+spilt 1 4.txt 1
+families 1 4.txt 1
+already 1 4.txt 1
+wildest 1 4.txt 1
+honoured 1 4.txt 1
+lady 1 4.txt 1
+until 1 4.txt 1
+procured 1 4.txt 1
+ornament 1 4.txt 1
+entangled 1 4.txt 1
+unused 1 4.txt 1
+gains 1 4.txt 1
+please 1 4.txt 3
+lout 1 4.txt 1
+cage 1 4.txt 1
+pinch 1 4.txt 1
+shut 1 4.txt 1
+middleaged 1 4.txt 1
+therefrom 1 4.txt 1
+whenever 1 4.txt 3
+afternoon 1 4.txt 2
+meals 1 4.txt 1
+vigilance 1 4.txt 1
+ways 1 4.txt 1
+escaping 1 4.txt 2
+quarrel 1 4.txt 1
+few 1 4.txt 3
+resting 1 4.txt 1
+hay 1 4.txt 3
+thus 1 4.txt 2
+goodnatured 1 4.txt 1
+pricked 1 4.txt 1
+useful 1 4.txt 1
+perch 1 4.txt 1
+bring 1 4.txt 2
+reply 1 4.txt 2
+blew 1 4.txt 8
+whites 1 4.txt 1
+tush 1 4.txt 2
+borrowed 1 4.txt 1
+striding 1 4.txt 1
+longnecked 1 4.txt 1
+palm 1 4.txt 1
+pate 1 4.txt 1
+seem 1 4.txt 1
+horses 1 4.txt 2
+persecuted 1 4.txt 1
+outcome 1 4.txt 1
+tiny 1 4.txt 1
+log 1 4.txt 5
+send 1 4.txt 2
+marshy 1 4.txt 1
+careful 1 4.txt 1
+hemp 1 4.txt 4
+prove 1 4.txt 2
+asleep 1 4.txt 1
+stroked 1 4.txt 1
+after 1 4.txt 19
+residence 1 4.txt 2
+offer 1 4.txt 1
+one 1 4.txt 71
+father 1 4.txt 9
+espied 1 4.txt 1
+among 1 4.txt 7
+fish 1 4.txt 9
+bundle 1 4.txt 4
+fellows 1 4.txt 4
+tail 1 4.txt 15
+manger 1 4.txt 4
+sick 1 4.txt 4
+drought 1 4.txt 1
+s 1 4.txt 1
+wrong 1 4.txt 1
+hunting 1 4.txt 1
+parents 1 4.txt 2
+skeleton 1 4.txt 1
+neighbourhood 1 4.txt 1
+measures 1 4.txt 1
+avoid 1 4.txt 1
+recommended 1 4.txt 1
+encumbrance 1 4.txt 1
+exist 1 4.txt 1
+donkeys 1 4.txt 1
+didnt 1 4.txt 1
+group 1 4.txt 1
+tut 1 4.txt 1
+glory 1 4.txt 1
+listening 1 4.txt 2
+nought 1 4.txt 1
+metal 1 4.txt 1
+silly 1 4.txt 1
+trouble 1 4.txt 1
+each 1 4.txt 6
+wife 1 4.txt 5
+stirred 1 4.txt 1
+considerable 1 4.txt 1
+power 1 4.txt 1
+bagpipes 1 4.txt 2
+appearances 1 4.txt 1
+plan 1 4.txt 2
+devices 1 4.txt 1
+cast 1 4.txt 2
+conquer 1 4.txt 1
+orchard 1 4.txt 1
+stable 1 4.txt 2
+buried 1 4.txt 1
+necessary 1 4.txt 1
+receive 1 4.txt 3
+starve 1 4.txt 1
+irregular 1 4.txt 1
+meet 1 4.txt 3
+dart 1 4.txt 1
+growing 1 4.txt 3
+admiring 1 4.txt 1
+luckily 1 4.txt 2
+court 1 4.txt 1
+equally 1 4.txt 1
+back 1 4.txt 11
+strutted 1 4.txt 1
+outside 1 4.txt 3
+insert 1 4.txt 1
+left 1 4.txt 4
+distance 1 4.txt 3
+known 1 4.txt 2
+continual 1 4.txt 1
+poked 1 4.txt 1
+suit 1 4.txt 1
+others 1 4.txt 4
+broke 1 4.txt 2
+seeing 1 4.txt 6
+ears 1 4.txt 1
+majesty 1 4.txt 3
+double 1 4.txt 2
+does 1 4.txt 2
+eye 1 4.txt 4
+feast 1 4.txt 1
+give 1 4.txt 17
+felt 1 4.txt 7
+great 1 4.txt 9
+legs 1 4.txt 4
+seen 1 4.txt 4
+opened 1 4.txt 4
+mouth 1 4.txt 16
+which 1 4.txt 30
+muddle 1 4.txt 1
+than 1 4.txt 21
+you 1 4.txt 134
+by 1 4.txt 55
+goat 1 4.txt 7
+taken 1 4.txt 5
+nurse 1 4.txt 5
+ant 1 4.txt 5
+hares 1 4.txt 7
+share 1 4.txt 8
+squeals 1 4.txt 1
+stage 1 4.txt 1
+changed 1 4.txt 1
+remain 1 4.txt 1
+woodcutter 1 4.txt 1
+start 1 4.txt 1
+ribbon 1 4.txt 1
+robber 1 4.txt 1
+dispute 1 4.txt 1
+stop 1 4.txt 2
+kill 1 4.txt 2
+lodging 1 4.txt 1
+whatever 1 4.txt 1
+neighbours 1 4.txt 2
+crows 1 4.txt 1
+wagging 1 4.txt 1
+speak 1 4.txt 2
+complained 1 4.txt 1
+village 1 4.txt 3
+excitement 1 4.txt 1
+scampered 1 4.txt 1
+bag 1 4.txt 1
+raise 1 4.txt 1
+gardens 1 4.txt 1
+contended 1 4.txt 1
+straight 1 4.txt 2
+addition 1 4.txt 1
+desire 1 4.txt 3
+lofty 1 4.txt 1
+escapes 1 4.txt 1
+active 1 4.txt 1
+worn 1 4.txt 1
+cutting 1 4.txt 1
+battle 1 4.txt 3
+spectacle 1 4.txt 1
+plumes 1 4.txt 2
+pity 1 4.txt 3
+glaring 1 4.txt 1
+means 1 4.txt 7
+hope 1 4.txt 4
+stooped 1 4.txt 1
+hearth 1 4.txt 1
+indoors 1 4.txt 1
+murderer 1 4.txt 1
+happen 1 4.txt 1
+earth 1 4.txt 2
+very 1 4.txt 17
+seeds 1 4.txt 2
+caught 1 4.txt 8
+shall 1 4.txt 10
+shoulder 1 4.txt 3
+imitation 1 4.txt 2
+unto 1 4.txt 3
+going 1 4.txt 11
+diningroom 1 4.txt 1
+sooner 1 4.txt 3
+week 1 4.txt 2
+we 1 4.txt 21
+inside 1 4.txt 1
+head 1 4.txt 14
+second 1 4.txt 2
+is 1 4.txt 60
+names 1 4.txt 1
+just 1 4.txt 15
+chance 1 4.txt 2
+something 1 4.txt 5
+countryman 1 4.txt 7
+trumpeter 1 4.txt 3
+avaricious 1 4.txt 3
+pots 1 4.txt 3
+wives 1 4.txt 3
+his 1 4.txt 176
+jay 1 4.txt 4
+mask 1 4.txt 3
+statue 1 4.txt 4
+hunter 1 4.txt 13
+birds 1 4.txt 15
+pearl 1 4.txt 3
+humble 1 4.txt 1
+seat 1 4.txt 1
+frock 1 4.txt 1
+milk 1 4.txt 3
+fluttered 1 4.txt 1
+message 1 4.txt 1
+track 1 4.txt 1
+impossible 1 4.txt 1
+interested 1 4.txt 1
+empty 1 4.txt 1
+decamped 1 4.txt 1
+ordered 1 4.txt 2
+gods 1 4.txt 2
+wheel 1 4.txt 1
+mire 1 4.txt 1
+sank 1 4.txt 2
+gladly 1 4.txt 2
+reign 1 4.txt 1
+promise 1 4.txt 1
+cool 1 4.txt 1
+spoon 1 4.txt 1
+aquarrelling 1 4.txt 1
+hit 1 4.txt 2
+crouched 1 4.txt 1
+husband 1 4.txt 2
+priest 1 4.txt 1
+granted 1 4.txt 2
+dance 1 4.txt 2
+stocks 1 4.txt 1
+sheep 1 4.txt 9
+coming 1 4.txt 6
+asking 1 4.txt 1
+stopped 1 4.txt 5
+purposes 1 4.txt 1
+having 1 4.txt 1
+collar 1 4.txt 1
+particular 1 4.txt 1
+pardoned 1 4.txt 1
+contained 1 4.txt 1
+soup 1 4.txt 2
+snow 1 4.txt 1
+houses 1 4.txt 1
+much 1 4.txt 11
+words 1 4.txt 3
+picking 1 4.txt 1
+sowing 1 4.txt 2
+idea 1 4.txt 1
+masters 1 4.txt 3
+nearer 1 4.txt 3
+let 1 4.txt 10
+replied 1 4.txt 5
+dogs 1 4.txt 5
+ready 1 4.txt 2
+visit 1 4.txt 4
+no 1 4.txt 22
+both 1 4.txt 6
+punish 1 4.txt 3
+farmer 1 4.txt 8
+cattle 1 4.txt 2
+beak 1 4.txt 3
+try 1 4.txt 2
+animals 1 4.txt 8
+roared 1 4.txt 1
+on 1 4.txt 62
+it 1 4.txt 138
+bald 1 4.txt 5
+sniff 1 4.txt 1
+sort 1 4.txt 1
+cries 1 4.txt 1
+polly 1 4.txt 1
+wont 1 4.txt 1
+shaft 1 4.txt 1
+girl 1 4.txt 1
+remedies 1 4.txt 1
+signal 1 4.txt 1
+feed 1 4.txt 2
+distrust 1 4.txt 1
+older 1 4.txt 2
+bleed 1 4.txt 1
+thank 1 4.txt 1
+crossing 1 4.txt 1
+declared 1 4.txt 1
+oer 1 4.txt 1
+rooms 1 4.txt 1
+hereafter 1 4.txt 1
+travelling 1 4.txt 2
+cudgelling 1 4.txt 1
+pinions 1 4.txt 1
+aloft 1 4.txt 2
+soared 1 4.txt 1
+rushing 1 4.txt 1
+window 1 4.txt 3
+close 1 4.txt 3
+leapt 1 4.txt 1
+grudge 1 4.txt 1
+sneered 1 4.txt 1
+however 1 4.txt 4
+fast 1 4.txt 1
+tempting 1 4.txt 1
+leaving 1 4.txt 1
+refuge 1 4.txt 1
+hotly 1 4.txt 1
+body 1 4.txt 4
+chained 1 4.txt 1
+certain 1 4.txt 1
+attacking 1 4.txt 1
+summoned 1 4.txt 4
+burst 1 4.txt 1
+storeroom 1 4.txt 1
+liking 1 4.txt 1
+enemies 1 4.txt 6
+stroke 1 4.txt 2
+worse 1 4.txt 1
+scuttled 1 4.txt 2
+approach 1 4.txt 4
+bristles 1 4.txt 1
+knees 1 4.txt 1
+waited 1 4.txt 8
+noticed 1 4.txt 6
+taking 1 4.txt 3
+hero 1 4.txt 1
+even 1 4.txt 3
+croaking 1 4.txt 1
+proper 1 4.txt 3
+able 1 4.txt 4
+blinking 1 4.txt 1
+voice 1 4.txt 6
+flew 1 4.txt 3
+understand 1 4.txt 1
+best 1 4.txt 5
+met 1 4.txt 5
+seeking 1 4.txt 1
+lay 1 4.txt 9
+fourth 1 4.txt 1
+capacity 1 4.txt 1
+looked 1 4.txt 6
+plank 1 4.txt 1
+runs 1 4.txt 1
+hillside 1 4.txt 1
+them 1 4.txt 48
+suddenly 1 4.txt 6
+hens 1 4.txt 1
+town 1 4.txt 11
+frog 1 4.txt 6
+remember 1 4.txt 1
+edge 1 4.txt 1
+managed 1 4.txt 1
+applaud 1 4.txt 1
+venus 1 4.txt 4
+toss 1 4.txt 1
+calculating 1 4.txt 1
+watch 1 4.txt 1
+entered 1 4.txt 1
+respects 1 4.txt 1
+occasion 1 4.txt 1
+lift 1 4.txt 1
+age 1 4.txt 1
+awoke 1 4.txt 1
+failed 1 4.txt 1
+gloat 1 4.txt 2
+scoffing 1 4.txt 1
+rides 1 4.txt 1
+sprawl 1 4.txt 1
+cloud 1 4.txt 1
+traveller 1 4.txt 5
+congratulate 1 4.txt 1
+moonlight 1 4.txt 1
+glittering 1 4.txt 1
+save 1 4.txt 2
+laughing 1 4.txt 1
+rock 1 4.txt 1
+yield 1 4.txt 2
+mans 1 4.txt 2
+net 1 4.txt 2
+played 1 4.txt 3
+luck 1 4.txt 3
+strolled 1 4.txt 1
+summer 1 4.txt 2
+winter 1 4.txt 3
+helping 1 4.txt 1
+overcoming 1 4.txt 1
+public 1 4.txt 1
+present 1 4.txt 3
+sour 1 4.txt 1
+trained 1 4.txt 1
+through 1 4.txt 3
+fix 1 4.txt 1
+against 1 4.txt 1
+walk 1 4.txt 3
+narrow 1 4.txt 1
+black 1 4.txt 2
+violent 1 4.txt 1
+crashing 1 4.txt 1
+bull 1 4.txt 3
+greet 1 4.txt 1
+goodday 1 4.txt 1
+growling 1 4.txt 1
+must 1 4.txt 6
+injuries 1 4.txt 1
+began 1 4.txt 16
+grinned 1 4.txt 1
+could 1 4.txt 35
+comes 1 4.txt 1
+also 1 4.txt 2
+running 1 4.txt 3
+months 1 4.txt 1
+called 1 4.txt 2
+then 1 4.txt 43
+time 1 4.txt 28
+may 1 4.txt 18
+had 1 4.txt 80
+turn 1 4.txt 6
+for 1 4.txt 67
+quoth 1 4.txt 5
+straw 1 4.txt 5
+brains 1 4.txt 7
+stag 1 4.txt 8
+ass 1 4.txt 22
+serpent 1 4.txt 15
+hart 1 4.txt 10
+pinching 1 4.txt 1
+hissed 1 4.txt 1
+concealed 1 4.txt 1
+sell 1 4.txt 1
+patty 1 4.txt 1
+beg 1 4.txt 1
+suggest 1 4.txt 1
+calf 1 4.txt 2
+repel 1 4.txt 1
+grisly 1 4.txt 1
+tired 1 4.txt 1
+fresh 1 4.txt 1
+none 1 4.txt 4
+forefeet 1 4.txt 1
+pole 1 4.txt 3
+greedy 1 4.txt 1
+despair 1 4.txt 2
+fishing 1 4.txt 1
+dwell 1 4.txt 2
+leaves 1 4.txt 1
+fool 1 4.txt 1
+shell 1 4.txt 3
+daintier 1 4.txt 1
+allowed 1 4.txt 1
+depart 1 4.txt 1
+whisper 1 4.txt 1
+change 1 4.txt 3
+apart 1 4.txt 1
+bow 1 4.txt 1
+contempt 1 4.txt 2
+parted 1 4.txt 1
+spur 1 4.txt 1
+conditions 1 4.txt 1
+three 1 4.txt 2
+aid 1 4.txt 3
+later 1 4.txt 1
+passed 1 4.txt 9
+join 1 4.txt 2
+lead 1 4.txt 2
+himself 1 4.txt 14
+sitting 1 4.txt 2
+plucked 1 4.txt 1
+tormented 1 4.txt 1
+instead 1 4.txt 3
+vile 1 4.txt 1
+wild 1 4.txt 1
+countrymen 1 4.txt 1
+frightened 1 4.txt 4
+evil 1 4.txt 1
+heed 1 4.txt 1
+bound 1 4.txt 2
+knows 1 4.txt 1
+sides 1 4.txt 1
+halter 1 4.txt 1
+sat 1 4.txt 3
+frisked 1 4.txt 1
+burden 1 4.txt 1
+bright 1 4.txt 1
+dinner 1 4.txt 6
+jellies 1 4.txt 1
+live 1 4.txt 3
+bread 1 4.txt 1
+long 1 4.txt 11
+tried 1 4.txt 11
+paw 1 4.txt 5
+came 1 4.txt 63
+jackal 1 4.txt 1
+peace 1 4.txt 4
+any 1 4.txt 10
+died 1 4.txt 3
+there 1 4.txt 23
+nay 1 4.txt 6
+drink 1 4.txt 1
+precious 1 4.txt 2
+yard 1 4.txt 2
+eagle 1 4.txt 8
+young 1 4.txt 17
+tree 1 4.txt 14
+belly 1 4.txt 5
+eagerly 1 4.txt 1
+encourage 1 4.txt 1
+eldest 1 4.txt 1
+feared 1 4.txt 1
+claimed 1 4.txt 1
+popular 1 4.txt 1
+gathering 1 4.txt 1
+plodding 1 4.txt 1
+manner 1 4.txt 1
+hiring 1 4.txt 1
+chief 1 4.txt 2
+beyond 1 4.txt 1
+sing 1 4.txt 2
+oft 1 4.txt 1
+casting 1 4.txt 1
+mount 1 4.txt 1
+might 1 4.txt 6
+jupiter 1 4.txt 5
+broken 1 4.txt 2
+lord 1 4.txt 2
+expressed 1 4.txt 1
+swept 1 4.txt 1
+deceptive 1 4.txt 1
+puss 1 4.txt 1
+herself 1 4.txt 2
+clever 1 4.txt 1
+upright 1 4.txt 1
+persisted 1 4.txt 1
+dull 1 4.txt 1
+support 1 4.txt 1
+meeting 1 4.txt 3
+given 1 4.txt 1
+armies 1 4.txt 1
+sign 1 4.txt 1
+sentenced 1 4.txt 1
+moaning 1 4.txt 1
+either 1 4.txt 1
+mountain 1 4.txt 2
+used 1 4.txt 15
+downrplashto 1 4.txt 1
+determined 1 4.txt 3
+tell 1 4.txt 4
+despised 1 4.txt 1
+or 1 4.txt 10
+these 1 4.txt 6
+while 1 4.txt 12
+fed 1 4.txt 2
+gasping 1 4.txt 1
+days 1 4.txt 7
+future 1 4.txt 1
+goodbye 1 4.txt 3
+refreshment 1 4.txt 1
+small 1 4.txt 4
+arbiter 1 4.txt 1
+made 1 4.txt 20
+snarled 1 4.txt 1
+year 1 4.txt 1
+thought 1 4.txt 15
+treasure 1 4.txt 1
+that 1 4.txt 150
+be 1 4.txt 44
+satyr 1 4.txt 7
+oneeyed 1 4.txt 2
+fisher 1 4.txt 7
+stork 1 4.txt 9
+glass 1 4.txt 1
+utter 1 4.txt 1
+pouring 1 4.txt 1
+claws 1 4.txt 2
+tender 1 4.txt 1
+declined 1 4.txt 2
+proposed 1 4.txt 2
+drive 1 4.txt 1
+bush 1 4.txt 1
+arent 1 4.txt 1
+decree 1 4.txt 1
+yellow 1 4.txt 1
+numb 1 4.txt 1
+vices 1 4.txt 1
+pasture 1 4.txt 1
+prowl 1 4.txt 1
+throw 1 4.txt 2
+entirely 1 4.txt 1
+execution 1 4.txt 1
+pedestal 1 4.txt 1
+stones 1 4.txt 2
+reckon 1 4.txt 1
+confusion 1 4.txt 1
+hundred 1 4.txt 2
+arose 1 4.txt 1
+plenty 1 4.txt 1
+recommend 1 4.txt 1
+corn 1 4.txt 2
+tearing 1 4.txt 1
+discussing 1 4.txt 1
+family 1 4.txt 1
+overcame 1 4.txt 1
+arisen 1 4.txt 1
+greater 1 4.txt 2
+vine 1 4.txt 1
+useless 1 4.txt 3
+conflict 1 4.txt 1
+causing 1 4.txt 1
+swollen 1 4.txt 1
+selfdestruction 1 4.txt 1
+worth 1 4.txt 3
+aimed 1 4.txt 1
+easy 1 4.txt 3
+troop 1 4.txt 2
+thing 1 4.txt 9
+new 1 4.txt 3
+notice 1 4.txt 2
+business 1 4.txt 1
+dared 1 4.txt 1
+towards 1 4.txt 10
+petition 1 4.txt 3
+prancing 1 4.txt 2
+pay 1 4.txt 2
+drew 1 4.txt 2
+flatterers 1 4.txt 1
+figure 1 4.txt 2
+feathers 1 4.txt 3
+night 1 4.txt 8
+mouses 1 4.txt 1
+ever 1 4.txt 4
+loved 1 4.txt 2
+again 1 4.txt 20
+teeth 1 4.txt 4
+open 1 4.txt 3
+agreed 1 4.txt 4
+between 1 4.txt 5
+away 1 4.txt 20
+grumbled 1 4.txt 1
+stand 1 4.txt 2
+quarter 1 4.txt 3
+snap 1 4.txt 1
+so 1 4.txt 72
+got 1 4.txt 15
+single 1 4.txt 2
+when 1 4.txt 54
+wind 1 4.txt 6
+nightingale 1 4.txt 5
+boy 1 4.txt 14
+grapes 1 4.txt 3
+lion 1 4.txt 55
+beasts 1 4.txt 15
+wine 1 4.txt 2
+indeed 1 4.txt 1
+gilded 1 4.txt 1
+hatched 1 4.txt 1
+shaw 1 4.txt 1
+absence 1 4.txt 1
+woe 1 4.txt 1
+alliance 1 4.txt 2
+testament 1 4.txt 1
+faggots 1 4.txt 1
+task 1 4.txt 1
+treacherous 1 4.txt 1
+struggle 1 4.txt 1
+yoursu 1 4.txt 1
+outwits 1 4.txt 1
+full 1 4.txt 6
+strong 1 4.txt 2
+brass 1 4.txt 2
+hint 1 4.txt 1
+punishing 1 4.txt 1
+theft 1 4.txt 1
+idols 1 4.txt 1
+barked 1 4.txt 1
+shepherd 1 4.txt 2
+storm 1 4.txt 1
+deeply 1 4.txt 1
+intelligence 1 4.txt 1
+third 1 4.txt 2
+terribly 1 4.txt 1
+saddled 1 4.txt 1
+gets 1 4.txt 1
+glided 1 4.txt 1
+hesitated 1 4.txt 1
+recognised 1 4.txt 1
+rise 1 4.txt 2
+slave 1 4.txt 4
+manage 1 4.txt 2
+hungry 1 4.txt 1
+visiting 1 4.txt 1
+hot 1 4.txt 5
+ah 1 4.txt 14
+cruel 1 4.txt 1
+ventured 1 4.txt 3
+commotion 1 4.txt 1
+cords 1 4.txt 1
+where 1 4.txt 9
+waggon 1 4.txt 1
+placed 1 4.txt 3
+clumsy 1 4.txt 1
+pitchforks 1 4.txt 1
+about 1 4.txt 21
+favourite 1 4.txt 2
+dying 1 4.txt 3
+wanted 1 4.txt 4
+snapped 1 4.txt 1
+scamper 1 4.txt 1
+such 1 4.txt 10
+trying 1 4.txt 1
+were 1 4.txt 41
+told 1 4.txt 6
+pronounced 1 4.txt 1
+lose 1 4.txt 3
+more 1 4.txt 11
+saw 1 4.txt 19
+cannot 1 4.txt 12
+lapping 1 4.txt 1
+but 1 4.txt 113
+to 1 4.txt 383
+did 1 4.txt 23
+was 1 4.txt 133
+friends 1 4.txt 12
+fly 1 4.txt 6
+a 1 4.txt 346
+members 1 4.txt 4
+androcles 1 4.txt 10
+sometimes 1 4.txt 1
+hideously 1 4.txt 1
+squealed 1 4.txt 1
+charge 1 4.txt 1
+parsons 1 4.txt 1
+simply 1 4.txt 2
+daughter 1 4.txt 2
+winningpost 1 4.txt 1
+approaching 1 4.txt 2
+hide 1 4.txt 1
+youngster 1 4.txt 1
+market 1 4.txt 4
+halfway 1 4.txt 1
+behind 1 4.txt 1
+afar 1 4.txt 1
+hencoop 1 4.txt 1
+shalt 1 4.txt 1
+pebble 1 4.txt 6
+grant 1 4.txt 1
+contact 1 4.txt 1
+fright 1 4.txt 1
+example 1 4.txt 2
+horrified 1 4.txt 1
+twice 1 4.txt 2
+coins 1 4.txt 1
+bother 1 4.txt 1
+chirping 1 4.txt 1
+prefer 1 4.txt 2
+drawing 1 4.txt 1
+thirst 1 4.txt 3
+quench 1 4.txt 2
+hardly 1 4.txt 1
+chafes 1 4.txt 1
+giving 1 4.txt 1
+wished 1 4.txt 2
+souls 1 4.txt 1
+bleeding 1 4.txt 1
+taller 1 4.txt 1
+inner 1 4.txt 1
+blow 1 4.txt 5
+kept 1 4.txt 3
+seized 1 4.txt 2
+order 1 4.txt 2
+jove 1 4.txt 5
+troubling 1 4.txt 1
+their 1 4.txt 32
+pardon 1 4.txt 2
+big 1 4.txt 9
+often 1 4.txt 10
+ale 1 4.txt 1
+door 1 4.txt 1
+found 1 4.txt 21
+set 1 4.txt 5
+welcome 1 4.txt 1
+satisfied 1 4.txt 1
+revenge 1 4.txt 3
+relieve 1 4.txt 2
+cut 1 4.txt 4
+skinned 1 4.txt 1
+last 1 4.txt 28
+well 1 4.txt 18
+can 1 4.txt 12
+been 1 4.txt 23
+some 1 4.txt 27
+what 1 4.txt 41
+from 1 4.txt 36
+bear 1 4.txt 7
+hoping 1 4.txt 1
+tomorrow 1 4.txt 1
+wait 1 4.txt 1
+weddingfeast 1 4.txt 1
+overjoyed 1 4.txt 1
+highly 1 4.txt 1
+race 1 4.txt 4
+challenge 1 4.txt 2
+council 1 4.txt 1
+hedgehog 1 4.txt 4
+wealth 1 4.txt 1
+drop 1 4.txt 1
+ashamed 1 4.txt 2
+shone 1 4.txt 1
+disputing 1 4.txt 2
+throughout 1 4.txt 1
+egg 1 4.txt 2
+roaming 1 4.txt 1
+reach 1 4.txt 2
+become 1 4.txt 1
+catch 1 4.txt 1
+separate 1 4.txt 1
+tails 1 4.txt 2
+walking 1 4.txt 3
+soar 1 4.txt 1
+ones 1 4.txt 2
+bystanders 1 4.txt 1
+truth 1 4.txt 1
+trick 1 4.txt 3
+prayed 1 4.txt 8
+people 1 4.txt 3
+wearing 1 4.txt 1
+pelt 1 4.txt 1
+brings 1 4.txt 1
+roots 1 4.txt 2
+necessity 1 4.txt 1
+proves 1 4.txt 1
+strength 1 4.txt 2
+missed 1 4.txt 1
+objection 1 4.txt 1
+regularly 1 4.txt 1
+knew 1 4.txt 4
+heavy 1 4.txt 4
+despise 1 4.txt 2
+slim 1 4.txt 1
+fled 1 4.txt 3
+moulting 1 4.txt 1
+use 1 4.txt 3
+theatre 1 4.txt 1
+say 1 4.txt 3
+slightest 1 4.txt 1
+boldest 1 4.txt 1
+look 1 4.txt 7
+jumped 1 4.txt 9
+hand 1 4.txt 4
+insult 1 4.txt 1
+kicked 1 4.txt 2
+turning 1 4.txt 4
+grew 1 4.txt 5
+arrived 1 4.txt 2
+nose 1 4.txt 3
+bacon 1 4.txt 2
+gifts 1 4.txt 1
+accident 1 4.txt 1
+reward 1 4.txt 3
+jaws 1 4.txt 3
+groaning 1 4.txt 3
+gorging 1 4.txt 1
+till 1 4.txt 11
+brook 1 4.txt 1
+warra 1 4.txt 5
+your 1 4.txt 41
+care 1 4.txt 2
+dont 1 4.txt 4
+supper 1 4.txt 1
+amid 1 4.txt 2
+up 1 4.txt 81
+goose 1 4.txt 4
+many 1 4.txt 11
+skin 1 4.txt 6
+mosquitoes 1 4.txt 5
+labour 1 4.txt 3
+desiring 1 4.txt 3
+oxstall 1 4.txt 3
+fox 1 4.txt 64
+and 1 4.txt 570
+trappings 1 4.txt 1
+pounced 1 4.txt 1
+gives 1 4.txt 1
+stick 1 4.txt 2
+successful 1 4.txt 1
+majestys 1 4.txt 2
+dear 1 4.txt 1
+sir 1 4.txt 1
+youve 1 4.txt 1
+propose 1 4.txt 2
+approaches 1 4.txt 1
+agree 1 4.txt 1
+case 1 4.txt 2
+cliff 1 4.txt 2
+inconvenient 1 4.txt 1
+proposal 1 4.txt 5
+enjoyed 1 4.txt 1
+dig 1 4.txt 1
+knelt 1 4.txt 1
+henceforth 1 4.txt 1
+selling 1 4.txt 1
+eyes 1 4.txt 2
+prospect 1 4.txt 2
+disclose 1 4.txt 1
+stroll 1 4.txt 1
+sharp 1 4.txt 1
+crack 1 4.txt 1
+promising 1 4.txt 1
+havent 1 4.txt 1
+noise 1 4.txt 1
+train 1 4.txt 1
+play 1 4.txt 1
+immense 1 4.txt 1
+leading 1 4.txt 1
+cry 1 4.txt 3
+think 1 4.txt 4
+boldly 1 4.txt 1
+stores 1 4.txt 1
+ants 1 4.txt 1
+represent 1 4.txt 1
+learnt 1 4.txt 1
+pursued 1 4.txt 2
+refused 1 4.txt 3
+beat 1 4.txt 1
+bounding 1 4.txt 1
+pulled 1 4.txt 2
+flee 1 4.txt 1
+annoyed 1 4.txt 1
+pecked 1 4.txt 1
+return 1 4.txt 2
+despicable 1 4.txt 1
+child 1 4.txt 7
+enemy 1 4.txt 7
+under 1 4.txt 5
+dancing 1 4.txt 1
+monster 1 4.txt 2
+bank 1 4.txt 4
+field 1 4.txt 4
+pocket 1 4.txt 1
+licked 1 4.txt 2
+who 1 4.txt 33
+stables 1 4.txt 1
+themselves 1 4.txt 7
+advice 1 4.txt 8
+queen 1 4.txt 1
+feel 1 4.txt 3
+heard 1 4.txt 9
+better 1 4.txt 8
+forgotten 1 4.txt 1
+right 1 4.txt 6
+enough 1 4.txt 3
+chase 1 4.txt 1
+dropped 1 4.txt 7
+call 1 4.txt 4
+drinking 1 4.txt 2
+dare 1 4.txt 3
+how 1 4.txt 18
+my 1 4.txt 30
+rather 1 4.txt 5
+farmyard 1 4.txt 1
+love 1 4.txt 5
+shadow 1 4.txt 5
+lamb 1 4.txt 8
+hiss 1 4.txt 1
+various 1 4.txt 1
+betide 1 4.txt 1
+break 1 4.txt 3
+injury 1 4.txt 1
+longer 1 4.txt 1
+venture 1 4.txt 2
+consider 1 4.txt 3
+stump 1 4.txt 1
+undisturbed 1 4.txt 1
+teach 1 4.txt 1
+bridge 1 4.txt 2
+shoulders 1 4.txt 1
+distress 1 4.txt 1
+retired 1 4.txt 1
+begin 1 4.txt 1
+craned 1 4.txt 1
+universal 1 4.txt 2
+totally 1 4.txt 1
+slouched 1 4.txt 1
+ungracefully 1 4.txt 1
+grey 1 4.txt 2
+rebuking 1 4.txt 1
+stealing 1 4.txt 1
+executed 1 4.txt 1
+speaks 1 4.txt 1
+succeeded 1 4.txt 1
+boasting 1 4.txt 4
+pluck 1 4.txt 1
+plant 1 4.txt 1
+prepare 1 4.txt 1
+moiling 1 4.txt 1
+hearts 1 4.txt 2
+singing 1 4.txt 1
+hid 1 4.txt 3
+lot 1 4.txt 2
+request 1 4.txt 1
+saddle 1 4.txt 1
+allow 1 4.txt 2
+itself 1 4.txt 5
+dry 1 4.txt 2
+held 1 4.txt 2
+occurred 1 4.txt 3
+gaunt 1 4.txt 1
+sight 1 4.txt 2
+whistling 1 4.txt 1
+neither 1 4.txt 1
+native 1 4.txt 2
+whole 1 4.txt 2
+led 1 4.txt 2
+wandering 1 4.txt 1
+escaped 1 4.txt 3
+named 1 4.txt 1
+selfconceit 1 4.txt 1
+asbut 1 4.txt 1
+hoofs 1 4.txt 1
+jays 1 4.txt 1
+cheat 1 4.txt 1
+snout 1 4.txt 1
+easily 1 4.txt 7
+buzzing 1 4.txt 1
+warm 1 4.txt 1
+deeds 1 4.txt 2
+folks 1 4.txt 1
+revile 1 4.txt 1
+lake 1 4.txt 2
+place 1 4.txt 10
+smoke 1 4.txt 1
+repented 1 4.txt 1
+move 1 4.txt 4
+horrible 1 4.txt 2
+pass 1 4.txt 3
+hunters 1 4.txt 6
+trap 1 4.txt 4
+being 1 4.txt 4
+song 1 4.txt 2
+glossy 1 4.txt 1
+remains 1 4.txt 1
+freely 1 4.txt 1
+cheese 1 4.txt 4
+nor 1 4.txt 2
+forget 1 4.txt 3
+countrymans 1 4.txt 1
+part 1 4.txt 4
+pearls 1 4.txt 1
+he 1 4.txt 235
+buffoon 1 4.txt 3
+pitcher 1 4.txt 10
+envious 1 4.txt 3
+swallow 1 4.txt 7
+ox 1 4.txt 9
+fables 1 4.txt 2
+audience 1 4.txt 1
+mercy 1 4.txt 1
+weight 1 4.txt 1
+bride 1 4.txt 1
+yesterday 1 4.txt 1
+couple 1 4.txt 1
+buy 1 4.txt 2
+maiden 1 4.txt 2
+persons 1 4.txt 1
+attached 1 4.txt 1
+sit 1 4.txt 1
+whip 1 4.txt 1
+wheels 1 4.txt 2
+regarded 1 4.txt 1
+prowling 1 4.txt 1
+songbird 1 4.txt 1
+bruin 1 4.txt 1
+promises 1 4.txt 1
+conduct 1 4.txt 1
+inhuman 1 4.txt 1
+wise 1 4.txt 1
+aside 1 4.txt 1
+huntsmen 1 4.txt 1
+debating 1 4.txt 1
+boughs 1 4.txt 1
+toil 1 4.txt 3
+reason 1 4.txt 1
+bridled 1 4.txt 1
+curious 1 4.txt 1
+iron 1 4.txt 2
+freed 1 4.txt 1
+thrown 1 4.txt 2
+captured 1 4.txt 3
+swelled 1 4.txt 3
+deep 1 4.txt 2
+discovered 1 4.txt 2
+substitute 1 4.txt 1
+wet 1 4.txt 1
+bosom 1 4.txt 1
+closer 1 4.txt 1
+quaking 1 4.txt 1
+thereupon 1 4.txt 1
+rule 1 4.txt 4
+us 1 4.txt 11
+destroy 1 4.txt 1
+paid 1 4.txt 1
+plight 1 4.txt 2
+tusks 1 4.txt 1
+drove 1 4.txt 1
+foot 1 4.txt 5
+branch 1 4.txt 5
+fear 1 4.txt 5
+mice 1 4.txt 5
+fare 1 4.txt 1
+lets 1 4.txt 2
+make 1 4.txt 10
+farmers 1 4.txt 4
+son 1 4.txt 8
+its 1 4.txt 40
+hunted 1 4.txt 2
+lest 1 4.txt 1
+never 1 4.txt 12
+piece 1 4.txt 8
+tyrant 1 4.txt 1
+will 1 4.txt 46
+this 1 4.txt 43
+am 1 4.txt 15
+seize 1 4.txt 1
+down 1 4.txt 46
+strutting 1 4.txt 1
+winejar 1 4.txt 3
+prisoner 1 4.txt 2
+catmaiden 1 4.txt 2
+death 1 4.txt 16
+miser 1 4.txt 4
+clothing 1 4.txt 3
+sheeps 1 4.txt 3
+peacock 1 4.txt 5
+wolf 1 4.txt 39
+during 1 4.txt 1
+becomingly 1 4.txt 1
+beautiful 1 4.txt 1
+beaten 1 4.txt 2
+bell 1 4.txt 2
+common 1 4.txt 1
+ago 1 4.txt 1
+rowed 1 4.txt 1
+land 1 4.txt 2
+around 1 4.txt 2
+brotherly 1 4.txt 1
+united 1 4.txt 1
+corner 1 4.txt 1
+rose 1 4.txt 1
+fellow 1 4.txt 2
+fall 1 4.txt 2
+white 1 4.txt 1
+flying 1 4.txt 1
+unlucky 1 4.txt 2
+pack 1 4.txt 1
+bending 1 4.txt 1
+hurricane 1 4.txt 1
+reins 1 4.txt 1
+parched 1 4.txt 1
+hunger 1 4.txt 2
+den 1 4.txt 1
+arena 1 4.txt 1
+middle 1 4.txt 1
+number 1 4.txt 3
+meal 1 4.txt 6
+state 1 4.txt 1
+hard 1 4.txt 3
+angry 1 4.txt 1
+really 1 4.txt 1
+midst 1 4.txt 2
+living 1 4.txt 2
+carry 1 4.txt 5
+climb 1 4.txt 1
+putting 1 4.txt 3
+dainty 1 4.txt 2
+safe 1 4.txt 5
+grudges 1 4.txt 1
+cave 1 4.txt 5
+end 1 4.txt 5
+today 1 4.txt 4
+cried 1 4.txt 15
+yes 1 4.txt 3
+music 1 4.txt 1
+answered 1 4.txt 2
+nice 1 4.txt 1
+cakes 1 4.txt 2
+expect 1 4.txt 1
+rage 1 4.txt 4
+trod 1 4.txt 1
+greed 1 4.txt 2
+loosened 1 4.txt 1
+terrible 1 4.txt 4
+an 1 4.txt 33
+another 1 4.txt 16
+way 1 4.txt 18
+not 1 4.txt 64
+if 1 4.txt 19
+beneath 1 4.txt 2
+frogs 1 4.txt 11
+horse 1 4.txt 12
+wood 1 4.txt 6
+bat 1 4.txt 5
