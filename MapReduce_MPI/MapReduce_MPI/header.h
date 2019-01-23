@@ -11,7 +11,7 @@
 #include "mpi.h"
 
 /// Define macros
-#define M 26					// old: 503
+#define M 26				// old: 503
 #define NR_PROCESSES 26
 #define DIR_NAME "test_files"
 #define DIR_NAME_RESULT "result_files"
@@ -23,6 +23,7 @@
 #define R_LEADER 2
 #define S_LEADER 1
 #define S_NONLIDER 0
+#define MAX_NR_FILES 26
 
 using namespace std;
 
@@ -56,7 +57,7 @@ void write_HT_to_file(TYPE_NODE *HT[], FILE *fp);
 
 S_WORD make_word(char *text, char *document);
 
-void display_word(TYPE_NODE * p);
+void display_word(S_WORD w);
 
 void write_word_to_file(TYPE_NODE * p, FILE *fp);
 
@@ -64,4 +65,6 @@ void append_char(char* s, char c);
 
 void get_file_names(const char *path);
 
-void readWords(TYPE_NODE *HT[], FILE *fp, char *document);
+void read_words(TYPE_NODE *HT[], FILE *fp, char *document);
+
+S_WORD parse_line(char *string, char *delimiter);

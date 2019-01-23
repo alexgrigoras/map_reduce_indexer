@@ -1,2 +1,5 @@
-﻿  main.cpp
+﻿  functions.cpp
+c:\users\alexandru grigoras\documents\mapreduce\mapreduce_mpi\mapreduce_mpi\functions.cpp(223): warning C4101: 'i': unreferenced local variable
+  main.cpp
+  Generating Code...
   MapReduce_MPI.vcxproj -> C:\Users\Alexandru Grigoras\Documents\mapreduce\MapReduce_MPI\Debug\MapReduce_MPI.exe

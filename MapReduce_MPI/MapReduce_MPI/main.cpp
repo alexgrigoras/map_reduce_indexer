@@ -19,14 +19,14 @@ int main(int argc, char* argv[]) {
 	MPI_Status status;								// return status for receive 
 	char *message;									// message buffer for receive
 	char *filePath;									// stores path to the file / file name
-	char *filePathResult;									// stores path to the file / file name
+	char *filePathResult;							// stores path to the file / file name
 	FILE *fp_read;									// opened file object
 	errno_t err;									// error message for file open problem
 	FILE *fp_write;									// opened file object
 	errno_t err_write;								// error message for file open problem
 	///
 	TYPE_NODE *HT[M];
-	list<TYPE_NODE*> HT_list;
+	list<S_WORD> WORDS_list;
 	///
 	int nrDimensions = 2;							// processes net
 	int nrElemDim = NR_PROCESSES;					// number of processes on each dimension
@@ -91,9 +91,9 @@ int main(int argc, char* argv[]) {
 		// measure time
 		clock_t begin = clock();
 		
-		readWords(HT, fp_read, message);
+		read_words(HT, fp_read, message);
 		fclose(fp_read);
-
+		
 		// write words on file
 		snprintf(filePathResult, strlen(DIR_NAME_RESULT) + 1 + strlen(message) + 1, "%s%c%s", DIR_NAME_RESULT, '/', message);
 		err_write = fopen_s(&fp_write, filePathResult, "w");
@@ -102,7 +102,7 @@ int main(int argc, char* argv[]) {
 			perror("> Error while opening the file result.\n");
 			exit(EXIT_FAILURE);
 		}
-
+		
 		//display_HT(HT);
 		write_HT_to_file(HT, fp_write);
 		fclose(fp_write);
@@ -148,16 +148,40 @@ int main(int argc, char* argv[]) {
 
 	if (statute == S_LEADER)
 	{
-		printf("> Process[%d] TOOK THE MOST TIME: %lf\n", myRank, sendMessage);
+		//printf("> Process[%d] TOOK THE MOST TIME: %lf\n", myRank, sendMessage);
 	}
 	else 
 	{
-		printf("> Process[%d] took: %lf\n", myRank, sendMessage);
+		//printf("> Process[%d] took: %lf\n", myRank, sendMessage);
 	}
 
 	// ----------------------------------------------------------------------------------------------------------------------
 
 	// ETAPA 3 --------------------------------------------------------------------------------------------------------------
+
+	if (myRank == 20)
+	{
+		char tmp[1024] = { 0x0 };
+		errno_t err;
+		FILE *in;
+		err = fopen_s(&in, "result_files/1.txt", "r");			// open file on command line
+		char delim[2] = " ";
+
+		if (err)
+		{
+			perror("File open error");
+			exit(EXIT_FAILURE);
+		}
+		while (fgets(tmp, sizeof(tmp), in) != 0)				// read a record
+		{
+			int i = 0;
+			S_WORD newWord;
+			newWord = parse_line(tmp, delim);					// whack record into fields 
+			display_word(newWord);
+			printf("\n");
+		}
+		fclose(in);
+	}
 	/*
 	/// create a type for struct S_WORD
 	int nitems = 3;

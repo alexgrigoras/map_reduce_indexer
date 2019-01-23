@@ -2,6 +2,7 @@
 
 int f(char *key)
 {
+	/*
 	int i, suma;
 	suma = 0;
 	for (i = 0; i < strlen(key); i++) 
@@ -9,7 +10,8 @@ int f(char *key)
 		suma = suma + *(key + i);
 	}
 	return suma % M;
-	//return (*(key + 0) - 97) % NR_PROCESSES;
+	*/
+	return (*(key + 0) - 97) % NR_PROCESSES;				// for storing in the hash map based on the first letter
 }
 
 void initialize_HT(TYPE_NODE *HT[])
@@ -57,7 +59,7 @@ void display_HT(TYPE_NODE *HT[])
 			while (p != 0)
 			{
 				count++;
-				display_word(p);
+				display_word(p->word);
 				if (p->next != 0)
 				{
 					printf(", ");
@@ -69,10 +71,12 @@ void display_HT(TYPE_NODE *HT[])
 	}
 }
 
-void display_word(TYPE_NODE * p)
+void display_word(S_WORD w)
 {
-	printf("<%s,{%s,%d}>", p->word.text, p->word.document, p->word.frequency);
+	printf("<%s,{%s,%d}>", w.text, w.document, w.frequency);
 }
+
+
 
 void write_HT_to_file(TYPE_NODE *HT[], FILE *fp)
 {
@@ -170,7 +174,7 @@ void get_file_names(const char *path)
 		{
 			if (dir->d_type == FILE_TXT)
 			{
-				strcpy_s(fileName, sizeof(dir->d_name), dir->d_name);
+				strcpy_s(fileName, strlen(dir->d_name) + 1, dir->d_name);
 				process++;
 				MPI_Send(fileName, strlen(fileName) + 1, MPI_CHAR, process, tag, MPI_COMM_WORLD);
 			}
@@ -184,7 +188,7 @@ void get_file_names(const char *path)
 	}
 }
 
-void readWords(TYPE_NODE *HT[], FILE *fp, char *document)
+void read_words(TYPE_NODE *HT[], FILE *fp, char *document)
 {
 	char c;
 	bool nextWord = false;
@@ -208,4 +212,29 @@ void readWords(TYPE_NODE *HT[], FILE *fp, char *document)
 			append_char(word, tolower(c));
 		}
 	}
+}
+
+S_WORD parse_line(char *string, char *delimiter)
+{
+	char *token;
+	char *next_token;
+	int fld = 0;
+	char arr[MAX_NR_FILES][NAME_SIZE] = { 0x0 };
+	int i;
+
+	token = strtok_s(string, delimiter, &next_token);
+
+	while (token) {
+		strcpy_s(arr[fld], strlen(token) + 1, token);
+		fld++;
+		token = strtok_s(NULL, delimiter, &next_token);
+	}
+
+	S_WORD word;
+
+	word.text = arr[0];
+	word.document = arr[1];
+	word.frequency = atoi(arr[2]);
+
+	return word;
 }
