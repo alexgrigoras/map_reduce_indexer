@@ -2,21 +2,26 @@
  ============================================================================
  Name        : main.cpp
  Author      : Alexandru Grigoras
- Version     : 0.3
+ Version     : 0.5
  Copyright   : Alexandru Grigoras
- Description : MapReduce MPI
+ Project     : MapReduce_MPI
+ Description : Parallel algorythm for indexing words from a list of
+			   files (includes map and reduce phases)
  ============================================================================
  */
 
-/// Header
+// Header
 #include "header.h"
 
+// Main function
 int main(int argc, char* argv[]) {
-	/// Variables
+	// Variables:
+	/// mpi
 	int myRank;										// rank of process 
 	int processCount;								// number of processes  
 	int tag = 0;									// tag for communication
 	MPI_Status status;								// return status for receive 
+	/// char arrays and file pointers
 	char *message;									// message buffer for receive
 	char *filePath;									// stores path to the file / file name
 	char *filePathResult;							// stores path to the file / file name
@@ -25,60 +30,64 @@ int main(int argc, char* argv[]) {
 	errno_t err;									// error message for file open problem
 	FILE *fp_write;									// opened file object
 	errno_t err_write;								// error message for file open problem
-	///
+	/// hash table
 	TYPE_NODE *HT[M];
-	///
+	/// leader choice
 	int nrDimensions = 2;							// processes net
 	int nrElemDim = NR_PROCESSES;					// number of processes on each dimension
 	int dims[NR_PROCESSES] = {1, NR_PROCESSES};		// elements of each dimension
 	int periods[] = { 1, 1 };						// periodicity of dimensions
-	int gasitLider = false;							// flag that activates when the leader is found
+	int foundLeader = false;							// flag that activates when the leader is found
 	int statute = S_LEADER;							// initially, each process is leader
-	int left;										// vecinii procesului curent
-	int right;
+	int left;										// left neighbour of current process
+	int right;										// right neighbour of current process
 	int round = R_CHOICE;							// tag for messages
 	MPI_Comm commCart;								// cartezian topology
-	///
+	/// elapsed time
 	double elapsedSecs = 0.0;
 	double sendMessage;
 	double receiveMessage;
 
 	/// MPI initialization
 	MPI_Init(&argc, &argv);							// start up MPI
-	MPI_Comm_rank(MPI_COMM_WORLD, &myRank);			// find out process rank
-	MPI_Comm_size(MPI_COMM_WORLD, &processCount);	// find out number of processes
-	MPI_Cart_create(MPI_COMM_WORLD, nrDimensions, dims, periods, 1, &commCart);
-	MPI_Comm_rank(commCart, &myRank);				// aflam rank-ul procesului curent
-	MPI_Comm_size(commCart, &processCount);			// aflam numarul de procese
+	MPI_Comm_rank(MPI_COMM_WORLD, &myRank);			// get process rank
+	MPI_Comm_size(MPI_COMM_WORLD, &processCount);	// get number of processes
+	MPI_Cart_create(MPI_COMM_WORLD, nrDimensions, dims, periods, 1, &commCart);	// create cartezian topology
+	MPI_Comm_rank(commCart, &myRank);				// get current rank from cartezian topology
+	MPI_Comm_size(commCart, &processCount);			// get number of processes from cartezian topology
 
+	/// Check if the  process number is correct
 	if (processCount != NR_PROCESSES)
 	{
 		printf("> Number of processes isn't correct! It should be: %d", NR_PROCESSES);
 		exit(EXIT_FAILURE);
 	}
 
-	MPI_Cart_shift(commCart, 1, 1, &left, &right);
-
+	/// Allocate memory for char arrays
 	message = (char*)malloc(NAME_SIZE*sizeof(char));			
 	filePath = (char*)malloc(NAME_SIZE * sizeof(char));
 	filePathResult = (char*)malloc(NAME_SIZE * sizeof(char));
 
+	/// Initialize Hash table
 	initialize_HT(HT);
 
-
-	// ETAPA 1 si 2 ---------------------------------------------------------------------------------------------------------
-	
+	/* ----------------------------------------------------------------------------------------------------	* 
+	 * MAP PHASE																							*
+	 * ----------------------------------------------------------------------------------------------------	*/	
 
 	/// if the process is ROOT
 	if (myRank == ROOT) {
-		get_file_names(DIR_NAME, fileNames);				// get file names and number of them
+		get_file_names(DIR_NAME, fileNames);			// get file names
 	}
 	/// if the process is worker
 	else {
-		// receive file name
+		/// receive file name
 		MPI_Recv(message, strlen(message) + 1, MPI_CHAR, ROOT, tag, MPI_COMM_WORLD, &status);
 		snprintf(filePath, strlen(DIR_NAME) + 1 + strlen(message) + 1, "%s%c%s", DIR_NAME, '/', message);
-		//printf(" [%d] received file name: %s\n", myRank, filePath);
+
+#ifdef SHOW_RECEIVED_FILE
+		printf(" [%d] received file name: %s\n", myRank, filePath);
+#endif
 
 		// open file with received name
 		err = fopen_s(&fp_read, filePath, "r");
@@ -94,34 +103,36 @@ int main(int argc, char* argv[]) {
 		read_words(HT, fp_read, message);
 		fclose(fp_read);
 		
-		// write words on file
+#ifdef WRITE_HT_FILE
+		/// write words on file
 		snprintf(filePathResult, strlen(DIR_NAME_RESULT) + 1 + strlen(message) + 1, "%s%c%s", DIR_NAME_RESULT, '/', message);
 		err_write = fopen_s(&fp_write, filePathResult, "w");
+		/// verify if the file was opened successfully
 		if (err_write)
 		{
 			perror("> Error while opening the file result.\n");
 			exit(EXIT_FAILURE);
 		}
-		
-		//display_HT(HT);
-		write_HT_to_file(HT, fp_write);
+		write_HT_to_file(HT, fp_write, false);
 		fclose(fp_write);
+#endif
+
+#ifdef SHOW_HT
+		display_HT(HT);
+#endif
 		
-		// get elapsed time
+		/// get elapsed time
 		clock_t end = clock();
 		elapsedSecs = double(end - begin) / CLOCKS_PER_SEC;
-		// printf("Process %d finished in %lf seconds", myRank, sendMessage);
 	}
+
+	// find the highest time
 	sendMessage = elapsedSecs;
-
-	/// find the highest time
-
+	MPI_Cart_shift(commCart, 1, 1, &left, &right);
 	MPI_Send(&sendMessage, 1, MPI_DOUBLE, right, round, commCart);
-
-	while (!gasitLider)
+	while (!foundLeader)
 	{
 		MPI_Recv(&receiveMessage, 1, MPI_DOUBLE, left, MPI_ANY_TAG, commCart, &status);
-
 		switch (status.MPI_TAG)
 		{
 		case R_CHOICE:
@@ -130,7 +141,7 @@ int main(int argc, char* argv[]) {
 				statute = S_LEADER;
 				round = R_LEADER;
 				MPI_Send(&sendMessage, 1, MPI_DOUBLE, right, round, commCart);
-				gasitLider = true;
+				foundLeader = true;
 			}
 			else if (receiveMessage > sendMessage)
 			{
@@ -141,37 +152,42 @@ int main(int argc, char* argv[]) {
 			statute = S_NONLIDER;
 			round = R_LEADER;
 			MPI_Send(&receiveMessage, 1, MPI_DOUBLE, right, round, commCart);
-			gasitLider = true;
+			foundLeader = true;
 			break;
 		}
 	}
 
+#ifdef SHOW_LEADER 
 	if (statute == S_LEADER)
 	{
-		//printf("> Process[%d] TOOK THE MOST TIME: %lf\n", myRank, sendMessage);
+		printf("> MAP Phase - Process[%d] TOOK THE MOST TIME: %lf\n", myRank, sendMessage);
 	}
 	else 
 	{
-		//printf("> Process[%d] took: %lf\n", myRank, sendMessage);
+		printf("> MAP Phase - Process[%d] took: %lf\n", myRank, sendMessage);
 	}
+#endif
 
-	// ----------------------------------------------------------------------------------------------------------------------
+	/* ----------------------------------------------------------------------------------------------------	*
+	 * REDUCE PHASE (READ FROM FILE)																		*
+	 * ----------------------------------------------------------------------------------------------------	*/
 
-	// ETAPA 3 --------------------------------------------------------------------------------------------------------------
-
+	// get data from file if process is ROOT
 	if (myRank == ROOT)
 	{
+		// measure time
+		clock_t begin = clock();
+
 		char tmp[1024] = { 0x0 };
 		errno_t err;
 		FILE *in;
+		char delim[2] = " ";
 
 		for (int i = 0; i < MAX_NR_FILES; i++)
 		{
 			snprintf(filePathResult, strlen(DIR_NAME_RESULT) + 1 + strlen(fileNames[i]) + 1, "%s%c%s", DIR_NAME_RESULT, '/', fileNames[i]);
-			//printf("opening file: %s\n", filePathResult);
 
 			err = fopen_s(&in, filePathResult, "r");			// open file on command line
-			char delim[2] = " ";
 
 			if (err)
 			{
@@ -182,22 +198,36 @@ int main(int argc, char* argv[]) {
 			{
 				int i = 0;
 				S_WORD newWord;
-				newWord = parse_line(tmp, delim);				//
+
+				newWord = parse_line(tmp, delim);				// create a new word
+				
 				insert_HT(HT, newWord);
-				display_word(newWord);
 			}
 			fclose(in);
 		}
 		FILE *out;
 
-		// write words on file
+		// write words to file
 		snprintf(filePathResult, strlen(DIR_NAME_RESULT) + 1 + strlen(FINAL_RESULT) + 1, "%s%c%s", DIR_NAME_RESULT, '/', FINAL_RESULT);
 		err_write = fopen_s(&out, filePathResult, "w");
 
-		write_HT_to_file(HT, out);
-
+#ifdef WRITE_HT_FILE
+		write_HT_to_file(HT, out, true);
+#endif
 		fclose(out);
+
+		/// get elapsed time
+		clock_t end = clock();
+		elapsedSecs = double(end - begin) / CLOCKS_PER_SEC;
+
+		printf("> REDUCE Phase - Process[%d] TOOK: %lf\n", myRank, elapsedSecs);
+		printf("> Total time: %lf\n", elapsedSecs + receiveMessage);
 	}
+
+	/* ----------------------------------------------------------------------------------------------------	*
+	 * REDUCE PHASE (SENDING MESSAGE WITH MPI) - NOT WORKING !												*
+	 * ----------------------------------------------------------------------------------------------------	*/
+
 	/*
 	/// create a type for struct S_WORD
 	int nitems = 3;
@@ -249,6 +279,7 @@ int main(int argc, char* argv[]) {
 
 	}
 	*/
+
 	// ----------------------------------------------------------------------------------------------------------------------
 
 	/// remove cartezian communication and dealocate memory

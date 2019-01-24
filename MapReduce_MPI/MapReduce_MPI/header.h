@@ -1,5 +1,14 @@
+/*
+ ============================================================================
+ Name        : header.h
+ Type		 : header
+ Project     : MapReduce_MPI
+ ============================================================================
+ */
+
 #pragma once
 
+/// Libraries
 #include <iostream>
 #include <string.h>
 #include <stdio.h>	
@@ -26,51 +35,54 @@
 #define S_NONLIDER 0
 #define MAX_NR_FILES 25
 
+/// Define for console displaying
+// #define SHOW_HT
+#define SHOW_LEADER
+// #defin SHOW_RECEIVED_FILE
+#define WRITE_HT_FILE
+
+// Namespace
 using namespace std;
 
+// Structures
 struct S_WORD
 {
-	char *text;								// key for search
-	int nr_docs;							// number of documents in which the word is present
+	char *text;									// key for search
+	int nr_docs;								// number of documents in which the word is present
 	int frequency[MAX_NR_FILES * 2];			// frequency of word
 	char *document[MAX_NR_FILES * 2];			// document in which the word is found
 };
-
 struct TYPE_NODE
 {
 	S_WORD word;
 	TYPE_NODE *next;
 };
 
-// dispersion function
-int f(char *key);
+// Functions
 
+// dispersion
+int dispersion_f1(char *key);
+int dispersion_f2(char *key);
+int dispersion_func(char *key);
+
+// hash table
 void initialize_HT(TYPE_NODE *HT[]);
-
 TYPE_NODE* search_HT(TYPE_NODE *HT[], char* text);
-
 void insert_HT(TYPE_NODE *HT[], S_WORD w);
-
-void delete_HT(TYPE_NODE *HT[]);
-
+void delete_HT(TYPE_NODE *HT[], char *word);
 void display_HT(TYPE_NODE *HT[]);
+void write_HT_to_file(TYPE_NODE *HT[], FILE *fp, bool format);
 
-void write_HT_to_file(TYPE_NODE *HT[], FILE *fp);
-
+// word functions
 S_WORD make_word(char *text, char *document, int nr_of_documents, int frequency);
-
 void display_word(S_WORD w);
-
 void write_word_to_file(S_WORD w, FILE *fp);
-
+void write_word_to_file_formatted(S_WORD w, FILE *fp);
 void append_char(char* s, char c);
-
 void get_file_names(const char *path, char array[][NAME_SIZE]);
-
 void read_words(TYPE_NODE *HT[], FILE *fp, char *document);
-
 S_WORD parse_line(char *string, char *delimiter);
 
-int char2int(char *array, size_t n);
-
+// char process
+int char2int(char *array);
 char* process(char *text);
