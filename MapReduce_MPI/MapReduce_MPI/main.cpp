@@ -2,7 +2,7 @@
  ============================================================================
  Name        : main.cpp
  Author      : Alexandru Grigoras
- Version     : 0.5
+ Version     : 0.6
  Copyright   : Alexandru Grigoras
  Project     : MapReduce_MPI
  Description : Parallel algorythm for indexing words from a list of
@@ -45,6 +45,7 @@ int main(int argc, char* argv[]) {
 	MPI_Comm commCart;								// cartezian topology
 	/// elapsed time
 	double elapsedSecs = 0.0;
+	double elapsedSecsROOT = 0.0;
 	double sendMessage;
 	double receiveMessage;
 
@@ -77,7 +78,7 @@ int main(int argc, char* argv[]) {
 
 	/// if the process is ROOT
 	if (myRank == ROOT) {
-		get_file_names(DIR_NAME, fileNames);			// get file names
+		get_file_names(DIR_NAME, fileNames);		// get file names
 	}
 	/// if the process is worker
 	else {
@@ -101,12 +102,14 @@ int main(int argc, char* argv[]) {
 		clock_t begin = clock();
 		
 		read_words(HT, fp_read, message);
+
 		fclose(fp_read);
 		
 #ifdef WRITE_HT_FILE
 		/// write words on file
 		snprintf(filePathResult, strlen(DIR_NAME_RESULT) + 1 + strlen(message) + 1, "%s%c%s", DIR_NAME_RESULT, '/', message);
 		err_write = fopen_s(&fp_write, filePathResult, "w");
+
 		/// verify if the file was opened successfully
 		if (err_write)
 		{
@@ -117,6 +120,9 @@ int main(int argc, char* argv[]) {
 		fclose(fp_write);
 #endif
 
+		/// send to master that process finished the processing
+		MPI_Send(message, strlen(message) + 1, MPI_CHAR, ROOT, tag, MPI_COMM_WORLD);
+
 #ifdef SHOW_HT
 		display_HT(HT);
 #endif
@@ -125,48 +131,6 @@ int main(int argc, char* argv[]) {
 		clock_t end = clock();
 		elapsedSecs = double(end - begin) / CLOCKS_PER_SEC;
 	}
-
-	// find the highest time
-	sendMessage = elapsedSecs;
-	MPI_Cart_shift(commCart, 1, 1, &left, &right);
-	MPI_Send(&sendMessage, 1, MPI_DOUBLE, right, round, commCart);
-	while (!foundLeader)
-	{
-		MPI_Recv(&receiveMessage, 1, MPI_DOUBLE, left, MPI_ANY_TAG, commCart, &status);
-		switch (status.MPI_TAG)
-		{
-		case R_CHOICE:
-			if (receiveMessage == sendMessage)
-			{
-				statute = S_LEADER;
-				round = R_LEADER;
-				MPI_Send(&sendMessage, 1, MPI_DOUBLE, right, round, commCart);
-				foundLeader = true;
-			}
-			else if (receiveMessage > sendMessage)
-			{
-				MPI_Send(&receiveMessage, 1, MPI_DOUBLE, right, round, commCart);
-			}
-			break;
-		case R_LEADER:
-			statute = S_NONLIDER;
-			round = R_LEADER;
-			MPI_Send(&receiveMessage, 1, MPI_DOUBLE, right, round, commCart);
-			foundLeader = true;
-			break;
-		}
-	}
-
-#ifdef SHOW_LEADER 
-	if (statute == S_LEADER)
-	{
-		printf("> MAP Phase - Process[%d] TOOK THE MOST TIME: %lf\n", myRank, sendMessage);
-	}
-	else 
-	{
-		printf("> MAP Phase - Process[%d] took: %lf\n", myRank, sendMessage);
-	}
-#endif
 
 	/* ----------------------------------------------------------------------------------------------------	*
 	 * REDUCE PHASE (READ FROM FILE)																		*
@@ -183,26 +147,26 @@ int main(int argc, char* argv[]) {
 		FILE *in;
 		char delim[2] = " ";
 
-		for (int i = 0; i < MAX_NR_FILES; i++)
+		for (int i = 0; i < NR_PROCESSES - 1; i++)
 		{
-			snprintf(filePathResult, strlen(DIR_NAME_RESULT) + 1 + strlen(fileNames[i]) + 1, "%s%c%s", DIR_NAME_RESULT, '/', fileNames[i]);
+			/// receive message from workers
+			MPI_Recv(message, NAME_SIZE, MPI_CHAR, MPI_ANY_SOURCE, tag, MPI_COMM_WORLD, &status);
+			snprintf(filePathResult, strlen(DIR_NAME_RESULT) + 1 + strlen(message) + 1, "%s%c%s", DIR_NAME_RESULT, '/', message);
 
 			err = fopen_s(&in, filePathResult, "r");			// open file on command line
-
-			if (err)
+			if (err)											// check for error
 			{
 				perror("File open error");
 				exit(EXIT_FAILURE);
 			}
-			while (fgets(tmp, sizeof(tmp), in) != 0)			// read a record
+			while (fgets(tmp, sizeof(tmp), in) != 0)			// read lines
 			{
 				int i = 0;
-				S_WORD newWord;
-
-				newWord = parse_line(tmp, delim);				// create a new word
-				
-				insert_HT(HT, newWord);
+				S_WORD newWord;									
+				newWord = parse_line(tmp, delim);				// create a new word from parsed line
+				insert_HT(HT, newWord);							// insert into hash table
 			}
+
 			fclose(in);
 		}
 		FILE *out;
@@ -218,10 +182,7 @@ int main(int argc, char* argv[]) {
 
 		/// get elapsed time
 		clock_t end = clock();
-		elapsedSecs = double(end - begin) / CLOCKS_PER_SEC;
-
-		printf("> REDUCE Phase - Process[%d] TOOK: %lf\n", myRank, elapsedSecs);
-		printf("> Total time: %lf\n", elapsedSecs + receiveMessage);
+		elapsedSecsROOT = double(end - begin) / CLOCKS_PER_SEC;
 	}
 
 	/* ----------------------------------------------------------------------------------------------------	*
@@ -279,6 +240,58 @@ int main(int argc, char* argv[]) {
 
 	}
 	*/
+
+	/* ----------------------------------------------------------------------------------------------------	*
+	 * FIND PROCESSES COMPLETION TIMES AND DISPLAY THEM (method: Finding the leader)						*
+	 * ----------------------------------------------------------------------------------------------------	*/
+
+	// find the highest time
+	sendMessage = elapsedSecs;
+	MPI_Cart_shift(commCart, 1, 1, &left, &right);
+	MPI_Send(&sendMessage, 1, MPI_DOUBLE, right, round, commCart);
+	while (!foundLeader)
+	{
+		MPI_Recv(&receiveMessage, 1, MPI_DOUBLE, left, MPI_ANY_TAG, commCart, &status);
+		switch (status.MPI_TAG)
+		{
+		case R_CHOICE:
+			if (receiveMessage == sendMessage)
+			{
+				statute = S_LEADER;
+				round = R_LEADER;
+				MPI_Send(&sendMessage, 1, MPI_DOUBLE, right, round, commCart);
+				foundLeader = true;
+			}
+			else if (receiveMessage > sendMessage)
+			{
+				MPI_Send(&receiveMessage, 1, MPI_DOUBLE, right, round, commCart);
+			}
+			break;
+		case R_LEADER:
+			statute = S_NONLIDER;
+			round = R_LEADER;
+			MPI_Send(&receiveMessage, 1, MPI_DOUBLE, right, round, commCart);
+			foundLeader = true;
+			break;
+		}
+	}
+
+#ifdef SHOW_LEADER 
+	if (statute == S_LEADER)
+	{
+		printf("> MAP Phase - Process[%d] TOOK THE MOST TIME: %lf\n", myRank, sendMessage);
+	}
+	else
+	{
+		printf("> MAP Phase - Process[%d] took: %lf\n", myRank, sendMessage);
+	}
+
+	if (myRank == 0)
+	{
+		printf("> REDUCE Phase - Process[%d] TOOK: %lf\n", myRank, elapsedSecsROOT);
+		printf("> Total time: %lf\n", elapsedSecsROOT + receiveMessage);
+	}
+#endif
 
 	// ----------------------------------------------------------------------------------------------------------------------
 

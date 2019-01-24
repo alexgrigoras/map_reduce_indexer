@@ -1,2 +1,6 @@
-﻿  main.cpp
+﻿  functions.cpp
+c:\users\alexandru grigoras\documents\mapreduce\mapreduce_mpi\mapreduce_mpi\functions.cpp(17): warning C4018: '<': signed/unsigned mismatch
+c:\users\alexandru grigoras\documents\mapreduce\mapreduce_mpi\mapreduce_mpi\functions.cpp(317): warning C4101: 'i': unreferenced local variable
+  main.cpp
+  Generating Code...
   MapReduce_MPI.vcxproj -> C:\Users\Alexandru Grigoras\Documents\mapreduce\MapReduce_MPI\Debug\MapReduce_MPI.exe

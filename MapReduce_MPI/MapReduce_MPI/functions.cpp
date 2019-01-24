@@ -1,7 +1,7 @@
 /*
  ============================================================================
  Name        : functions.cpp
- Type		 : functions
+ Type		 : Functions
  Project     : MapReduce_MPI
  ============================================================================
  */
@@ -12,13 +12,13 @@
 // dispersion for storing in the hash map based on sum of ASCII codes
 int dispersion_f1(char *key)
 {
-	int i, suma;
-	suma = 0;
+	int i, sum;
+	sum = 0;
 	for (i = 0; i < strlen(key); i++)
 	{
-		suma = suma + *(key + i);
+		sum = sum + *(key + i);
 	}
-	return suma % M;
+	return sum % M;
 }
 
 // dispersion for storing in the hash map based on the first letter
@@ -176,17 +176,17 @@ void insert_HT(TYPE_NODE *HT[], S_WORD w)
 
 	int h = dispersion_func(p->word.text);
 
-	if (HT[h] == 0)							// nu exista inregistrare cu index h
+	if (HT[h] == 0)							// it doesn't exists a record with index h
 	{
-		HT[h] = p;							// pun pointer
-		p->next = 0;						// informatie de inlantuire
+		HT[h] = p;							// puts the pointer
+		p->next = 0;						// chaining information
 	}
 	else
 	{
 		TYPE_NODE* q = search_HT(HT, p->word.text);
-		if (q == 0)							// nu exista o înregistrare de cheia respectiva
+		if (q == 0)							// it doesn't exists a record with the word
 		{
-			p->next = HT[h];				// inserez in fata
+			p->next = HT[h];				// insert at beginning
 			HT[h] = p;
 		}
 		else
@@ -221,14 +221,14 @@ void insert_HT(TYPE_NODE *HT[], S_WORD w)
 void delete_HT(TYPE_NODE *HT[], char *word_text)
 {
 	int h = dispersion_func(word_text);
-	if (HT[h] == 0)							// nu exista inregistrare cu index h
+	if (HT[h] == 0)							// it doesn't exists a record with index h
 	{
 		cout << "> Word doesn't exists: " << word_text << endl;
 	}
 	else
 	{
 		TYPE_NODE* q = search_HT(HT, word_text);
-		if (q == 0)							// nu exista o înregistrare de cheia respectiva
+		if (q == 0)							// it doesn't exists a record with the word text
 		{
 			cout << "> We don't have what to delete!" << endl;
 		}
@@ -252,11 +252,11 @@ void append_char(char* char_arr, char c) {
 void get_file_names(const char *path, char array[][NAME_SIZE])
 {
 	/// Variables
-	int process = 0;							/// process to send file name
-	int tag = 0;								/// tag for communication
-	DIR *d;										///
-	struct dirent *dir;							///
-	char *fileName;								/// stores file name
+	int process = 0;							// process to send file name
+	int tag = 0;								// tag for communication
+	DIR *d;										
+	struct dirent *dir;							
+	char *fileName;								// stores file name
 
 	fileName = (char*)malloc(NAME_SIZE * sizeof(char));
 
@@ -294,12 +294,10 @@ void read_words(TYPE_NODE *HT[], FILE *fp, char *document)
 	{
 		if ((c == ' ' || c == '\n') && !nextWord)
 		{
-			/// create new word
 			nextWord = true;
-			w = make_word(word, document);
+			w = make_word(word, document);							/// create new word
 			insert_HT(HT, w);
-			/// empty read word
-			strcpy_s(word, strlen(EMPTY_CHAR) + 1, EMPTY_CHAR);
+			strcpy_s(word, strlen(EMPTY_CHAR) + 1, EMPTY_CHAR);		/// empty read word
 		}
 		else if (c >= -1 && c <= 255 && isalpha(c))
 		{
@@ -334,74 +332,4 @@ S_WORD parse_line(char *string, char *delimiter)
 	word = make_word(arr[0], arr[2], nr_docs, freq);
 
 	return word;
-}
-
-// convert character array to integer
-int char2int(char *array)
-{
-	int number = 0;
-	int mult = 1;
-
-	size_t n = strlen(array);
-
-	/// for each character in array
-	while (n--)
-	{
-		/// if not digit or '-', check if number > 0, break or continue 
-		if ((array[n] < '0' || array[n] > '9') && array[n] != '-') {
-			if (number)
-				break;
-			else
-				continue;
-		}
-
-		if (array[n] == '-') {      /// if '-' if number, negate, break 
-			if (number) {
-				number = -number;
-				break;
-			}
-		}
-		else {                      /// convert digit to numeric value
-			number += (array[n] - '0') * mult;
-			mult *= 10;
-		}
-	}
-
-	return number;
-}
-
-// removes space from string
-char* process(char *text) 
-{
-	int length, c, d;
-	char *start;
-
-	c = d = 0;
-
-	length = strlen(text);
-
-	start = (char*)malloc(length + 1);
-
-	if (start == NULL)
-		exit(EXIT_FAILURE);
-
-	while (*(text + c) != '\0') {
-		if (*(text + c) == ' ') {
-			int temp = c + 1;
-			if (*(text + temp) != '\0') {
-				while (*(text + temp) == ' ' && *(text + temp) != '\0') {
-					if (*(text + temp) == ' ') {
-						c++;
-					}
-					temp++;
-				}
-			}
-		}
-		*(start + d) = *(text + c);
-		c++;
-		d++;
-	}
-	*(start + d) = '\0';
-
-	return start;
 }
