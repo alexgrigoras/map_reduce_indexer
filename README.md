@@ -4,7 +4,7 @@ Parallel algorythm for indexing words from a list of files.
 
 ## Details
 ---
-Made using Visual Studio using C/C++ and MPI.
+Made using Visual Studio with C/C++ and MPI.
 
 ## Implementation
 ---
