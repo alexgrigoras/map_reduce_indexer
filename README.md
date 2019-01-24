@@ -14,21 +14,21 @@ The MASTER process reads the file names from folder and sends them to workers.
 
 Indexing algorythm with two phases:
 
-1. Map phase
+1. Map phase   
 The WORKER receives the file name, opens it and parses it. It adds the words found into a Hash table.
 The Hash table has 500 records and the dispersion function calculates the sum of ascii codes. It adds all the words from file into the Hash table and it saves the words with frequencyes into a temporary file. 
 After that it tells to MASTER that it finished the processing.
 
-1. Reduce phase
+1. Reduce phase  
 The MASTER adds the processed words (from workers when finished) to it's Hash table, where would be stored all the words from parsed files.
 The MASTER then can find or display all words and it's occurencies.
 
 ## Example result
 ---
-1. Input
+1. Input  
 Text with English words.
 
-1. Output
+1. Output  
 <antiquity, {16.txt:4,25.txt:3}>
 <possesses, {21.txt:11,14.txt:1,5.txt:2,24.txt:5,15.txt:1,7.txt:2,25.txt:58}>
 <intellectionem, {21.txt:2}>
