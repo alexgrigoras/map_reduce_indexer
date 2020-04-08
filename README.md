@@ -1,13 +1,12 @@
 # MapReduce
----
-Parallel algorythm for indexing words from a list of files.
+
+## Description
+Distributed MapReduce algorythm for indexing words from a list of files.
 
 ## Details
----
-Made using Visual Studio with C/C++ and MPI.
+Made in Visual Studio IDE using C/C++ and MPI.
 
 ## Implementation
----
 Algorythm has a MASTER process and a few WORKERS.
 
 The MASTER process reads the file names from folder and sends them to workers.
@@ -24,7 +23,6 @@ The MASTER adds the processed words (from workers when finished) to it's Hash ta
 The MASTER then can find or display all words and it's occurencies.
 
 ## Example result
----
 1. Input  
 Text with English words.
 
@@ -40,5 +38,4 @@ Text with English words.
 <positions, {6.txt:2,17.txt:3,11.txt:1,1.txt:2,18.txt:2,24.txt:2,3.txt:2,2.txt:4,25.txt:2,19.txt:9}>
 
 ## License
----
 MIT License
