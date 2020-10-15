@@ -22,6 +22,10 @@ After that it tells to MASTER that it finished the processing.
 The MASTER adds the processed words (from workers when finished) to it's Hash table, where would be stored all the words from parsed files.
 The MASTER then can find or display all words and it's occurencies.
 
+## Documentation
+See [Documentation](documentation.pdf) for mode details.
+
+
 ## Example result
 1. Input  
 Text with English words.
