@@ -25,7 +25,6 @@ The MASTER then can find or display all words and it's occurencies.
 ## Documentation
 See [Documentation](documentation.pdf) for mode details.
 
-
 ## Example result
 1. Input  
 Text with English words.
@@ -42,4 +41,4 @@ Text with English words.
 <positions, {6.txt:2,17.txt:3,11.txt:1,1.txt:2,18.txt:2,24.txt:2,3.txt:2,2.txt:4,25.txt:2,19.txt:9}>
 
 ## License
-MIT License
+MIT License.
