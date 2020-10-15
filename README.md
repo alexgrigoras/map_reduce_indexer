@@ -1,17 +1,17 @@
 # MapReduce
 
 ## Description
-Distributed MapReduce algorythm for indexing words from a list of files.
+Distributed MapReduce algorithm for indexing words from a list of files.
 
 ## Details
 Made in Visual Studio IDE using C/C++ and MPI.
 
 ## Implementation
-Algorythm has a MASTER process and a few WORKERS.
+Algorithm has a MASTER process and a few WORKERS.
 
 The MASTER process reads the file names from folder and sends them to workers.
 
-Indexing algorythm with two phases:
+Indexing algorithm with two phases:
 
 1. Map phase   
 The WORKER receives the file name, opens it and parses it. It adds the words found into a Hash table.
